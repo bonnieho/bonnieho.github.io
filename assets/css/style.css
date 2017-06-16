@@ -1,0 +1,400 @@
+/* Here are my own homegrown styles - Bonnie L. Hoffman bonnieho@rice.edu */
+
+* {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	
+} 
+
+body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 18px;
+	line-height: 150%;
+	/* instructions ask or this color, but I think that #999 is closer  - color: #777; */
+	color: #999;
+	background-color: #fff;
+	background-image: url(../images/concrete_seamless.png);
+}
+
+a:link {
+	text-decoration: none;
+	color: #999;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #999;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #666;
+	border-bottom: #666 dotted 1px;
+}
+
+a:active {
+	text-decoration: none;
+	color: #eee;
+	border-bottom: #eee dotted 1px;
+}
+
+/* all other fonts:
+font-family: arial, 'Helvetica Neue', helvetica, sans-serif; */
+
+/*  teal color for headings and backgrounds
+color: #4aaaa5; */
+
+/* the entire content area is width: 960px; */
+
+/*  main section content width: 650px; */
+
+/*  sidebar width: 270px; */
+
+/*  don't forget to look into these concepts: float, padding, margin, display, overflow, clear, and text-align  */
+
+header {
+	padding: 0;
+	background-color: #fff;
+	border-bottom: #ccc solid 2px;
+	height: 90px;
+}
+
+
+
+p {
+	font-family: arial, 'Helvetica Neue', helvetica, sans-serif;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+
+/* +++++++++++++  MAIN container styles +++++++++++++++ */
+/* this is a container holding the teal H1 on the left side of the header. */
+
+#main {
+	/* background-color: #fff; */
+	/*border-color: #ddd;*/
+	width: 960px;
+	height:90px;
+	padding-top: 25px;
+	margin: auto;
+}
+
+#main h1 {
+	margin: 0;
+	background-color: #4aaaa5;
+	color: #fff;
+	display: inline;
+	height: 100%;
+	font-size: 150%;
+	padding: 36px;
+	padding-top: 36px;
+}
+
+/* +++++++++++++  NAV container styles +++++++++++++++ */
+/* this is a container holding the three navigation links on the right side of the header. */
+
+#nav {
+	width: 290px;
+	height:90px;
+	float: right;
+	margin-right: 0;
+	padding-right: 0;
+	text-align: right;
+	color: #eee;
+}
+
+#nav a:link {
+	margin-right: 12px;
+	margin-left: 12px;
+	text-decoration: none;
+	color: #999;
+}
+
+#nav a:visited {
+	margin-right: 12px;
+	margin-left: 12px;
+	text-decoration: none;
+	color: #999;
+}
+
+#nav a:hover {
+	margin-right: 12px;
+	margin-left: 12px;
+	text-decoration: none;
+	color: #666;
+	border-bottom: #666 dotted 1px;
+}
+
+#nav a:active {
+	margin-right: 12px;
+	margin-left: 12px;
+	text-decoration: none;
+	color: #eee;
+	border-bottom: #eee dotted 1px;
+}
+
+
+
+#container {
+	/* background-color: #fff; */
+	/*border-color: #ddd;*/
+	width: 960px;
+	margin: auto;
+}
+
+
+
+/* +++++++++++++  CONTENT styles +++++++++++++++ */
+
+
+#content {
+	max-width: 590px;
+	/* width is supposed to be 650px, but with the extra interior padding, we have to reduce that */
+	background-color: #fff;
+	padding: 30px;
+	border: 1px solid #dcdcdc;
+	margin-top: 38px;
+	float: left;
+}
+
+#content h2 {
+	color: #4aaaa5;
+	border-bottom: 3px solid #dcdcdc;
+	font-size: 150%;
+	/* font-weight: bold; */
+	padding: 0 0 36px 0;
+	margin-bottom: 30px;
+}
+
+#content p {
+	display:inline;
+	line-height: 2;
+	padding-top: 0;
+	margin-top: 0;
+	margin-bottom: 8px;
+}
+
+#content img {
+	float: left;
+	margin-right: 24px;
+}
+
+#content .interest {
+	height: 204px;
+	width: 274px;
+	/* display: block; */
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 56px;
+	background-color: #000;
+}
+
+#content .interest h3 {
+	/* height: 62px; */
+	height: 44px;
+	width: 274px;
+	display: block;
+	background-color: #4aaaa5;
+	color: #fff;
+	font-size: 110%;
+	text-align: center;
+	padding-top: 16px;
+	margin-top: 135px;
+}
+
+#content form {
+	font-family: arial, 'Helvetica Neue', helvetica, sans-serif;
+	width: 80%;
+}
+
+#content label {
+		font-family: arial, 'Helvetica Neue', helvetica, sans-serif;
+		display: block;
+		margin-bottom: 8px;
+}
+
+#content input {
+	height: 36px;
+	width: 586px;
+	padding: 0 12px;
+	margin-bottom: 12px;
+	border: 1px solid #dcdcdc;
+	font-family: arial, 'Helvetica Neue', helvetica, sans-serif;
+	font-size: 80%;
+	color: #dcdcdc;
+}
+
+#content textarea {
+	/* height: 36px; */
+	width: 586px;
+	margin-bottom: 18px;
+	border: 1px solid #dcdcdc;
+	font-family: arial, 'Helvetica Neue', helvetica, sans-serif;
+	color: #dcdcdc;
+}
+
+#content input.send {
+	width: 115px;
+	height: 42px;
+	margin: 0;
+	background-color: #4aaaa5;
+	color: #fff;
+	font-size: 110%;
+}
+
+
+
+/* +++++++++++++  SIDEBAR styles +++++++++++++++ */
+
+
+section#sidebar {
+	max-width: 210px;
+	/* width is supposed to be 270px, but with the extra interior padding, we have to reduce that */
+	float: right;
+	background-color: #fff;
+	padding: 30px;
+	border: 1px solid #dcdcdc;
+	margin-top: 14px;
+}
+
+section#sidebar h3 {
+	color: #4aaaa5;
+	border-bottom: 2px solid #dcdcdc;
+	font-size: 110%;
+	/* font-weight: bold; */
+	padding: 0 0 24px 0;
+	margin-bottom: 24px;
+	}
+
+
+section#sidebar a {
+	height: 62px;
+	width: 62px;
+	border:0;
+	list-style:none;
+	/* float:left;
+	display:block; */
+	margin:0;
+	padding:0;
+}
+
+section#sidebar img {
+	width:62px;
+	height:62px;
+	border: 0;
+	margin-right:4px;
+}
+
+/*
+* html a:hover {
+	visibility:visible;
+} */
+
+
+/*  come back to this  later 
+section#sidebar a:hover {
+	border-bottom: 0;
+}
+
+
+section#sidebar .github {
+	background-image: url(../images/icon_github_over.png);
+	width:62px;
+	height:62px;
+	border: 0;
+}
+section#sidebar .github a:link img{
+	visibility:visible;
+}
+section#sidebar .github a:visited img{
+	visibility:visible;
+}
+section#sidebar .github a:hover img{
+	visibility:hidden;
+}
+section#sidebar .github a:active img{
+	visibility:hidden;
+}
+
+section#sidebar .linkedin {
+	background-image: url(../images/icon_linkedin_over.png);
+}
+
+section#sidebar .linkedin a:hover img {
+	visibility:hidden;
+}
+
+section#sidebar .stackov img {
+	background-image: url(../images/icon_stackov_over.png);
+}
+* html a:hover {
+	visibility:visible;
+} 
+section#sidebar .stackov a:hover img {
+	visibility:hidden;
+}
+
+
+*/
+
+
+/*  check pseudos for last one in sequence to have no margin-right */
+
+
+/* +++++++++++++  FOOTER styles +++++++++++++++ */
+
+footer {
+	clear: both;
+	background-color: #666;
+	text-align: center;
+	font-size: small;
+	border-top: #4aaaa5 8px solid;
+	color: #c3cabe;
+	width: 100%;
+	height: 94px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+footer p {
+	font-family: arial, 'Helvetica Neue', helvetica, sans-serif;
+	padding: 32px;
+}
+
+footer a:link {
+	text-decoration: none;
+	color: #c3cabe;
+}
+
+footer a:visited {
+	background-color: #666;
+	text-decoration: none;
+	color: #c3cabe;
+}
+
+footer a:hover {
+	background-color: #666;
+	text-decoration: none;
+	color: #c3cabe;
+	border-bottom: #c3cabe dotted 1px;
+}
+
+footer a:active {
+	background-color: #666;
+	text-decoration: none;
+	color: #eee;
+	border-bottom: #eee dotted 1px;
+}
+
+
+
+/* ====================  END styles ======================== */
