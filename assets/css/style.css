@@ -413,6 +413,86 @@ footer a:active {
 	border-bottom: #eee dotted 1px;
 }
 
+/* ====================  MEDIA QUERIES ======================== */
+
+
+/*  980px mimics width of screen desktop to help keep content from getting cut off  */
+
+@media screen and (max-width: 980px) {
+	@-ms-viewport {
+  		width: device-width;
+	}
+}
+
+
+
+/* 768px mimics width of tablet */
+
+@media screen and (max-width: 768px) {
+	@-ms-viewport {
+  		width: device-width;
+	}
+
+	#main {
+		width: 90%;
+	}
+
+	#nav {
+		padding-right: 24px;
+		text-align: left;
+	} 
+
+	#container {	
+		width: 768px;
+	}
+
+	#content {
+		margin-left: 5%;
+	}
+
+	section#sidebar {
+		float: left;
+		margin-left: 30%;
+	}
+
+}
+
+
+/* 640px mimics width of phone in landscape */
+
+@media screen and (max-width: 640px) {
+	@-ms-viewport {
+  		width: device-width;
+	}
+	header {
+		position: static;
+	}
+
+	#main {
+		width: 640px;
+	}
+
+	#nav {
+		padding-right: 12px;
+		text-align: left;
+	} 
+
+	#container {	
+		width: 640px;
+	}
+
+	#content {
+		max-width: 84%;
+		margin-left: 3%;
+	}
+
+	section#sidebar {
+		float: left;
+		margin-left: 30%;
+	}
+
+}
+
 
 
 /* ====================  END styles ======================== */
