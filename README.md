@@ -8,6 +8,8 @@ Well, this was a confusing assignment. It was hard to determine whether we were 
 
 ### Just 'th facts...
 
+As this assignment was early in our six-month course, at the point we were asked to complete this exercise, we had only just been introduced to html, css, and Bootstrap 3.
+
 - - - 
 
 
