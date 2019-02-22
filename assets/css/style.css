@@ -209,7 +209,7 @@ p {
 }
 
 #content .interest img {
-	z-index: 10;
+	z-index: 1;
 }
 
 #content .interest h3 {
@@ -223,7 +223,7 @@ p {
 	text-align: center;
 	padding-top: 16px;
 	margin-top: 135px;
-	z-index: 0;
+	z-index: 10;
 }
 
 #content form {
