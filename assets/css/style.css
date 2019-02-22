@@ -208,6 +208,10 @@ p {
 	background-color: #000;
 }
 
+#content .interest img {
+	z-index: 10;
+}
+
 #content .interest h3 {
 	/* height: 62px; */
 	height: 44px;
@@ -219,6 +223,7 @@ p {
 	text-align: center;
 	padding-top: 16px;
 	margin-top: 135px;
+	z-index: 0;
 }
 
 #content form {
