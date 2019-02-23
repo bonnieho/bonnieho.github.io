@@ -209,6 +209,7 @@ p {
 }
 
 #content .interest img {
+	position: relative;
 	z-index: 1;
 }
 
@@ -223,6 +224,7 @@ p {
 	text-align: center;
 	padding-top: 16px;
 	margin-top: 135px;
+	position: absolute;
 	z-index: 10;
 }
 
