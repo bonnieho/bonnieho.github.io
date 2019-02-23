@@ -228,6 +228,42 @@ p {
 	z-index: 10;
 }
 
+/* ===========  #content .interest pseudoclasses  ==================  */
+
+#content .interest h3 a:link {
+	/* height: 204px; this is the ht of the .interest class */
+	height: 44px;
+	width: 274px;
+	/* color: #ffffe5; lt cream */
+	/* color: #ffc; cream */
+	/* color: #c3e5e3;  lt teal - slightly dker */
+	color: #d4eceb; /* lt teal */
+	/* z-index: 11; */
+}
+
+#content .interest h3 a:visited {
+	height: 44px;
+	width: 274px;
+	color: #d4eceb; /* lt teal */
+}
+
+#content .interest h3 a:hover {
+	height: 44px;
+	width: 274px;
+	/* color: #f2f2f2; */
+	color: #e6e6e6;
+	border-bottom: #e6e6e6 dotted 1px;
+}
+
+#content .interest h3 a:active {
+	height: 44px;
+	width: 274px;
+	color: #fff;
+	border-bottom: #fff dotted 1px;
+}
+
+/* ===========  END #content .interest pseudoclasses  ==================  */
+
 #content form {
 	font-family: arial, 'Helvetica Neue', helvetica, sans-serif;
 	width: 80%;
