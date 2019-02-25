@@ -338,6 +338,7 @@ section#sidebar a {
 	display:block; */
 	margin:0;
 	padding:0;
+		z-index: 10;
 }
 
 section#sidebar img {
@@ -345,6 +346,7 @@ section#sidebar img {
 	height: 62px;
 	border: 0;
 	margin-right: 4px;
+		z-index: 5;
 }
 
 .push {
@@ -359,7 +361,7 @@ section#sidebar img {
 } */
 
 
-/*  come back to this  later 
+/*  come back to this later  */
 section#sidebar a:hover {
 	border-bottom: 0;
 }
@@ -403,7 +405,7 @@ section#sidebar .stackov a:hover img {
 }
 
 
-*/
+
 
 
 /*  check pseudos for last one in sequence to have no margin-right */
