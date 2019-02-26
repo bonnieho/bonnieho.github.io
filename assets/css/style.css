@@ -72,6 +72,7 @@ header {
 
 p {
 	font-family: arial, 'Helvetica Neue', helvetica, sans-serif;
+	display: block;
 	margin-top: 8px;
 	margin-bottom: 8px;
 }
