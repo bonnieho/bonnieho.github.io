@@ -156,7 +156,7 @@ p {
 }
 
 #container p {
-	clear: both;
+	/* clear: both; */
 	display:block;
 	margin-bottom: 12px;
 }
