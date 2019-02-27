@@ -187,8 +187,8 @@ p {
 }
 
 #content p {
-	/* display: inline; */
-	display: block;
+	display: inline; 
+	/* display: block; */
 	line-height: 2;
 	padding-top: 0;
 	margin-top: 0;
