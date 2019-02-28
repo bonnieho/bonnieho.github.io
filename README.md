@@ -8,7 +8,7 @@ Well, this was a confusing assignment. It was hard to determine whether we were 
 
 ### Just 'th facts...
 
-As this assignment was early in our six-month course, at the point we were asked to complete this exercise, we had only just been introduced to html, css, and Bootstrap 3.
+As this assignment was early in our six-month course, at the point we were asked to complete this exercise, we had only just been introduced to html, css, and Bootstrap 3. Although I could make quick work of the markup and free-form CSS, with course content coming at us like water from a fire hose, I hadn't yet build up a reasonable level of confidence using the Bootstrap grid system yet.
 
 - - - 
 
