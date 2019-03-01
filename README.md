@@ -2,7 +2,7 @@
 
 ## Overview
 
-Well, when this task was originally assigned, there was a lot of confusing in class. I suppose it was in the way that the instructions were written, nevertheless, it was hard to determine whether we were supposed to re-create what the instructor and TAs had given us as an example or if we were supposed to use it as a basis for our own creation. Since it was so unclear to me at the time, I simply made a pixel-perfect clone of the example shown to the class - colors, layout, and all. This was my third (and final) attempt from way back in 2017, however, I've recently been inspired to get in and fix it up properly, complete with new project cards.
+Well, when this task was originally assigned, there was a lot of confusion in class. I suppose it was in the way that the instructions were written, nevertheless, it was hard to determine whether we were supposed to re-create what the instructor and TAs had given us as an example or if we were supposed to use it as a basis for our own creation. Since it was unclear to me at the time, I simply made a pixel-perfect clone of the example shown to the class - colors, layout, and all. This was my third (and final) attempt from way back in 2017, however, I've recently been inspired to get in and fix it up properly, complete with new project cards.
 
 - - - 
 
