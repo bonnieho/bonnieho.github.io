@@ -12,7 +12,7 @@ As this assignment was early in our six-month course, at the point we were asked
 
 #### What the portfolio hopes to showcase
 
-I've been a front-end designer for a *long* time. I've also been a sys admin for IIS servers. The coding bootcamp course I completed was a welcomed bridge between those experiences. So, although I've got plenty of examples of front-end design work that I've done, the intent here is to bring focus to interactive programming projects that I am capable of (and most proud of!). 
+I've been a front-end designer for a *long* time. I've also been a sys admin for IIS servers at various times throughout the years. The coding bootcamp course I completed was a welcomed bridge between those experiences. So, although I've got plenty of examples out there of front-end design work that I've done, the intent here is to bring focus to interactive programming projects that I am capable of (and those that I am most proud of!). 
 
 - - - 
 
