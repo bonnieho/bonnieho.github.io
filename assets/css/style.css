@@ -338,7 +338,6 @@ section#sidebar a {
 	display:block; */
 	margin:0;
 	padding:0;
-		z-index: 10;
 }
 
 section#sidebar img {
@@ -346,7 +345,6 @@ section#sidebar img {
 	height: 62px;
 	border: 0;
 	margin-right: 4px;
-		z-index: 5;
 }
 
 .push {
@@ -361,48 +359,93 @@ section#sidebar img {
 } */
 
 
-/*  come back to this later  */
+/*  button rollover effects  */
 section#sidebar a:hover {
 	border-bottom: 0;
 }
 
 
 section#sidebar .github {
-	background-image: url(../images/icon_github_over.png);
+	background-image: url(../images/icon_github.png);
 	width:62px;
 	height:62px;
 	border: 0;
 }
-section#sidebar .github a:link img{
+
+section#sidebar .github a:link img {
 	visibility:visible;
 }
-section#sidebar .github a:visited img{
+
+section#sidebar .github a:visited img { 
 	visibility:visible;
 }
-section#sidebar .github a:hover img{
+
+* html a:hover {
+	visibility:hidden;
+} 
+
+section#sidebar .github a:hover img {
 	visibility:hidden;
 }
-section#sidebar .github a:active img{
+
+section#sidebar .github a:active img {
 	visibility:hidden;
 }
 
 section#sidebar .linkedin {
-	background-image: url(../images/icon_linkedin_over.png);
+	background-image: url(../images/icon_linkedin.png);
+	width:62px;
+	height:62px;
+	border: 0;
 }
+
+section#sidebar .linkedin a:link img {
+	visibility:visible;
+}
+
+section#sidebar .linkedin a:visited img {
+	visibility:visible;
+}
+
+* html a:hover {
+	visibility:hidden;
+} 
 
 section#sidebar .linkedin a:hover img {
 	visibility:hidden;
 }
 
-section#sidebar .stackov img {
-	background-image: url(../images/icon_stackov_over.png);
+section#sidebar .linked a:active img {
+	visibility:hidden;
 }
-* html a:hover {
+
+section#sidebar .stackov img {
+	background-image: url(../images/icon_stackov.png);
+	width:62px;
+	height:62px;
+	border: 0;
+}
+
+section#sidebar .stackov a:link img {
 	visibility:visible;
+}
+
+section#sidebar .stackov a:visited img {
+	visibility:visible;
+}
+
+* html a:hover {
+	visibility:hidden;
 } 
+
 section#sidebar .stackov a:hover img {
 	visibility:hidden;
 }
+section#sidebar .stackov a:active img {
+	visibility:hidden;
+}
+
+
 
 
 
