@@ -353,31 +353,27 @@ section#sidebar img {
 	margin-bottom: 12px;
 }
 
-/*
-* html a:hover {
-	visibility:visible;
-} */
 
 
 /*  button rollover effects  */
+
 section#sidebar a:hover {
 	border-bottom: 0;
 }
 
 
-section#sidebar .github {
-	background-image: url(../images/icon_github.png);
+section#sidebar .github a {
+	background-image: url(../images/icon_github_over.png);
 	width:62px;
 	height:62px;
 	border: 0;
 }
 
-section#sidebar .github a:link img {
-	visibility:visible;
-}
-
-section#sidebar .github a:visited img { 
-	visibility:visible;
+section#sidebar .github img {
+	width:62px;
+	height:62px;
+	border: 0;
+	margin-right: 4px;
 }
 
 * html a:hover {
@@ -392,8 +388,10 @@ section#sidebar .github a:active img {
 	visibility:hidden;
 }
 
+
+
 section#sidebar .linkedin {
-	background-image: url(../images/icon_linkedin.png);
+	background-image: url(../images/icon_linkedin_over.png);
 	width:62px;
 	height:62px;
 	border: 0;
@@ -420,7 +418,7 @@ section#sidebar .linked a:active img {
 }
 
 section#sidebar .stackov img {
-	background-image: url(../images/icon_stackov.png);
+	background-image: url(../images/icon_stackov_over.png);
 	width:62px;
 	height:62px;
 	border: 0;
@@ -445,6 +443,81 @@ section#sidebar .stackov a:active img {
 	visibility:hidden;
 }
 
+
+/* section#sidebar a:hover {
+	border-bottom: 0;
+}
+
+
+section#sidebar .github a {
+	background-image: url(../images/icon_github_over.png) no-repeat;
+	width:62px;
+	height:62px;
+	border: 0;
+}
+
+section#sidebar .github img {
+	width:62px;
+	height:62px;
+	border: 0;
+}
+
+* html a:hover {
+	visibility:visible;
+}
+
+section#sidebar .github a:hover img {
+	visibility:hidden;
+}
+
+
+
+
+#linkedin a {
+	background-image: url(../images/icon_linkedin_over.png) no-repeat;
+	width:62px;
+	height:62px;
+	border: 0;
+}
+
+#linkedin img {
+	width:62px;
+	height:62px;
+	border: 0;
+}
+
+* html a:hover {
+	visibility:visible;
+}
+
+#linkedin a:hover img {
+	visibility:hidden;
+}
+
+
+
+
+#stackov a {
+	background-image: url(../images/icon_stackov_over.png) no-repeat;
+	width:62px;
+	height:62px;
+	border: 0;
+}
+
+#stackov img {
+	width:62px;
+	height:62px;
+	border: 0;
+}
+
+* html a:hover {
+	visibility:visible;
+}
+
+#stackov a:hover img {
+	visibility:hidden;
+}
+*/
 
 
 
