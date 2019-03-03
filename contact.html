@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="GitHub Portfolio Landing Page for Bonnie L. Hoffman, a full-stack web developer in Southeast Texas" />
+    <meta name="description" content="GitHub Portfolio Contact Page for Bonnie L. Hoffman, a full-stack web developer in Southeast Texas" />
     <meta name="keyword" content="Bonnie, Bonnie L, Hoffman, Bonnie L. Hoffman, portfolio, coding, front-end, full-stack, web design, web development, bootcamp, UT Austin, Trilogy, certificate, html, css, javascript, node, node.js, express, react, sql, mysql, firebase, mongoDB, bootstrap, foundation, zurb foundation" />
     <meta name="author" content="Bonnie Lynne Hoffman" />
     <meta name="robots" content="index, follow" />
@@ -29,7 +29,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css" media="all" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="all" />
 
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS ? -->
 
     <!-- Google Fonts -->
     <link href="" rel="stylesheet" />
@@ -37,74 +37,65 @@
         
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous" />
+
   </head>
- <header>
+
+  <body>
+    <header>
       <div id="main">
-    	   <h1>Bonnie L. Hoffman</h1>
-     
-          <div id="nav">
-            <p><a href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a></p>
-          </div>
+        <h1>Bonnie L. Hoffman</h1>
 
-       </div>
-  	</header>
+        <div id="nav">
+          <p><a href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a></p>
+        </div>
 
+      </div>
+    </header>
 
- 
+    <div id="container">
 
-  <div id="container">
+      <!--  left content block -->	
+      <section id="content">
 
+        <h2>Contact</h2>
 
-<!--  left content block -->	
+          <form method="post" action="mailto:bonnieho@rice.edu?subject='information request from portfolio site'" name="contact">
+            <label>Name</label>
+            <input type="text" name="name" value="John Smith" />
 
-    <section id="content">
+            <label>Email</label>
+            <input type="text" name="email" value="example@gmail.com" />
 
-      <h2>Contact</h2>
+            <label>Message</label>
+            <textarea rows="10" cols="60" name="message"></textarea>
 
-      	<form method="post" action="mailto:bonnieho@rice.edu?subject='information request from portfolio site'" name="contact">
-			<label>Name</label>
-			<input type="text" name="name" value="John Smith" />
+            <input class="send" type="submit" name="submit" value="Submit" />
 
-			<label>Email</label>
-			<input type="text" name="email" value="example@gmail.com" />
+          </form>
 
-			<label>Message</label>
-			<textarea rows="10" cols="60" name="message"></textarea>
-
-			<input class="send" type="submit" name="submit" value="Submit" />
-
-      	</form>
-
-    </section>
+      </section>
 
 
+      <!--  SIDEBAR - right, floated contact block -->
+      <section id="sidebar">
 
-<!--  SIDEBAR - right, floated contact block -->
+        <h3>Connect with Me</h3>
 
-    <section id="sidebar">
+          <a href="https://bonnieho.github.io/" class="github"></a>
+       
+          <a href="https://www.linkedin.com/in/bonnie-l-hoffman-7a806a24/" class="linkedin"></a>
+        
+          <a href="https://stackoverflow.com/users/8084084/bonnieho" class="stackov"></a>
 
-      <h3>Connect with Me</h3>
-      	
-      	<a href="https://bonnieho.github.io/"><img src="assets/images/icon_github.png" alt="icon link to git hub profile" /></a>
-      
-      	<a href="https://www.linkedin.com/in/bonnie-l-hoffman-7a806a24/"><img src="assets/images/icon_linkedin.png" alt="icon link to linked in profile" /></a>
-      
-      	<a href="https://stackoverflow.com/users/8084084/bonnieho"><img src="assets/images/icon_stackov.png" alt="icon link to stack overflow profile" /></a>
-    
-    </section>
+      </section>
 
 
-   <!-- END CONTAINER div -->
-  </div>
+    <!-- END CONTAINER div -->
+    </div>
 
-
-      <footer>
-        <p>&#169; Copyright 2017-2019 <a href="mailto:bonnieho@rice.edu">Bonnie L. Hoffman</a></p>
-      </footer>
-
-
-
-
+    <footer>
+      <p>&#169; Copyright 2017-2019 <a href="mailto:bonnieho@rice.edu">Bonnie L. Hoffman</a></p>
+    </footer>
 
 	</body>
 </html>

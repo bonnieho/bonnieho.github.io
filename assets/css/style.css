@@ -341,6 +341,7 @@ section#sidebar a {
 }
 
 section#sidebar img {
+	display: inline;
 	width: 62px;
 	height: 62px;
 	border: 0;
@@ -357,12 +358,51 @@ section#sidebar img {
 
 /*  button rollover effects  */
 
-section#sidebar a:hover {
-	border-bottom: 0;
+section#sidebar .github {
+    width: 62px;
+    height: 62px;
+    background: url("../images/icon_github.png") no-repeat;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+section#sidebar .github:hover {
+    background: url("../images/icon_github_over.png") no-repeat;
+    margin-right: 4px;
 }
 
 
-section#sidebar .github a {
+section#sidebar .linkedin {
+    width: 62px;
+    height: 62px;
+    background: url("../images/icon_linkedin.png") no-repeat;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+section#sidebar .linkedin:hover {
+    background: url("../images/icon_linkedin_over.png") no-repeat;
+    margin-right: 4px;
+}
+
+
+section#sidebar .stackov {
+    width: 62px;
+    height: 62px;
+    background: url("../images/icon_stackov.png") no-repeat;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+section#sidebar .stackov:hover {
+    background: url("../images/icon_stackov_over.png") no-repeat;
+    margin-right: 4px;
+}
+
+
+
+
+/* section#sidebar .github a {
 	background-image: url(../images/icon_github_over.png);
 	width:62px;
 	height:62px;
@@ -387,9 +427,9 @@ section#sidebar .github a:hover img {
 section#sidebar .github a:active img {
 	visibility:hidden;
 }
+*/
 
-
-
+/*
 section#sidebar .linkedin {
 	background-image: url(../images/icon_linkedin_over.png);
 	width:62px;
@@ -442,7 +482,7 @@ section#sidebar .stackov a:hover img {
 section#sidebar .stackov a:active img {
 	visibility:hidden;
 }
-
+*/
 
 /* section#sidebar a:hover {
 	border-bottom: 0;
