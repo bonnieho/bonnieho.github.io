@@ -371,6 +371,11 @@ section#sidebar .github:hover {
     margin-right: 4px;
 }
 
+section#sidebar .github:active {
+    background: url("../images/icon_github_active.png") no-repeat;
+    margin-right: 4px;
+}
+
 
 section#sidebar .linkedin {
     width: 62px;
@@ -385,6 +390,11 @@ section#sidebar .linkedin:hover {
     margin-right: 4px;
 }
 
+section#sidebar .linkedin:active {
+    background: url("../images/icon_linkedin_active.png") no-repeat;
+    margin-right: 4px;
+}
+
 
 section#sidebar .stackov {
     width: 62px;
@@ -396,6 +406,11 @@ section#sidebar .stackov {
 
 section#sidebar .stackov:hover {
     background: url("../images/icon_stackov_over.png") no-repeat;
+    margin-right: 4px;
+}
+
+section#sidebar .stackov:active {
+    background: url("../images/icon_stackov_active.png") no-repeat;
     margin-right: 4px;
 }
 
