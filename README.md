@@ -16,6 +16,40 @@ As this assignment was early in our six-month course, at the point we were asked
 
 I've been a front-end designer for a *long* time. I've also been a sys admin for IIS servers at various times throughout the years. The coding bootcamp course I completed was a welcomed bridge between those experiences. So, although I've got plenty of examples out there of front-end design work that I've done, the intent here is to bring focus to interactive programming projects that I am capable of (and those that I am most proud of!). 
 
+#### Technical stuff
+
+There isn't anything too fancy here, but in case you're into javascript-free rollovers, I've used CSS pseudoclasses for the hover and active states of the "Connect with me" icon links in the right side bar
+
+**The CSS:**
+
+```
+	section#sidebar .github {
+   		width: 62px;
+    	height: 62px;
+    	background: url("../images/icon_github.png") no-repeat;
+    	display: inline-block;
+    	margin-right: 4px;
+	}
+
+	section#sidebar .github:hover {
+    	background: url("../images/icon_github_over.png") no-repeat;
+    	margin-right: 4px;
+	}
+
+	section#sidebar .github:active {
+    	background: url("../images/icon_github_active.png") no-repeat;
+    	margin-right: 4px;
+	}
+```
+
+**The HTML:** 
+
+```
+	<a href="https://bonnieho.github.io/" class="github"></a>
+```
+
+*Note that there is not an image container nested inside of the anchor tags. The link is configured for the exact dimensions of the image in the css, then that space is filled with the image as a background-image. The image appears to change on rollover as a different background-image is called on :hover, and then another on mousedown (active).*
+
 - - - 
 
 
