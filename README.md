@@ -52,6 +52,14 @@ There isn't anything too fancy here, but in case you're into javascript-free rol
 
 - - - 
 
+#### MVPs
+
+WAVE accessibility recommendations:
+    * 3x missing links (connect buttons)
+    * contrast stuff
+
+- - -
+
 
 (c)2017-2019 __Bonnie Lynne Hoffman__ 
 
