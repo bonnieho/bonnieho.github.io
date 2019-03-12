@@ -18,7 +18,7 @@ I've been a front-end designer for a *long* time. I've also been a sys admin for
 
 #### Technical stuff
 
-There isn't anything too fancy here, but in case you're into javascript-free rollovers, I've used CSS pseudoclasses for the hover and active states of the "Connect with me" icon links in the right side bar
+There isn't anything too fancy here, but in case you're into javascript-free rollovers, I've used CSS pseudoclasses for the hover and active states of the "Connect with me" icon links in the right side bar.
 
 **The CSS:**
 
