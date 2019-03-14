@@ -354,6 +354,10 @@ section#sidebar img {
 	margin-bottom: 12px;
 }
 
+.link-name {
+	display: none;
+}
+
 
 
 /*  button rollover effects  */
