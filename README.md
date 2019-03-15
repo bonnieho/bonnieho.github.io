@@ -16,7 +16,7 @@ As this assignment was early in our six-month course, at the point we were asked
 
 I've been a front-end designer for a *long* time. I've also been a sys admin for IIS servers at various times throughout the years. The coding bootcamp course I completed was a welcomed bridge between those experiences. So, although I've got plenty of examples out there of front-end design work that I've done, the intent here is to bring focus to interactive programming projects that I am capable of (and those that I am most proud of!). 
 
-#### Technical stuff
+#### Technical stuff - button pseudoclass rollovers
 
 There isn't anything too fancy here, but in case you're into javascript-free rollovers, I've used CSS pseudoclasses for the hover and active states of the "Connect with me" icon links in the right side bar.
 
@@ -45,17 +45,35 @@ There isn't anything too fancy here, but in case you're into javascript-free rol
 **The HTML:** 
 
 ```
-	<a href="https://bonnieho.github.io/" class="github"></a>
+	<a href="https://bonnieho.github.io/" class="github"><span class="link-name">Connect with Bonnie on Git Hub</span></a>
 ```
 
 *Note that there is not an image container nested inside of the anchor tags. The link is configured for the exact dimensions of the image in the css, then that space is filled with the image as a background-image. The image appears to change on rollover as a different background-image is called on :hover, and then another on mousedown (active).*
+
+*ALSO, I had originally left the link container "empty" (only the background images), but checking the page through a Web Accessibility tool pointed out that this is undesired for assistive technology users, as there is nothing to describe the link itself to those visitors. Hence, I've included the span container with descriptive text inside of the link and then made the style of the corresponding class equal to `display:none`.* 
+
+
+#### Technical stuff - "sticky" footer
+
+Again, this is not rocket science, but if you've ever struggled with getting a footer element to "stick" to the bottom of a browser window, here's what I did in the footer styles:
+
+~~~
+footer {
+    . 
+    .
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+~~~
+
+*Note: I originally had a height of 100% on the body element, but this broke the absolute positioning of the footer, so it got commented out.*
 
 - - - 
 
 #### MVPs
 
 WAVE accessibility recommendations:
-    * 3x missing links (connect buttons)
     * contrast stuff
 
 - - -
