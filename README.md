@@ -45,7 +45,9 @@ There isn't anything too fancy here, but in case you're into javascript-free rol
 **The HTML:** 
 
 ```
-	<a href="https://bonnieho.github.io/" class="github"><span class="link-name">Connect with Bonnie on Git Hub</span></a>
+	<a href="https://bonnieho.github.io/" class="github">
+        <span class="link-name">Connect with Bonnie on Git Hub</span>
+    </a>
 ```
 
 *Note that there is not an image container nested inside of the anchor tags. The link is configured for the exact dimensions of the image in the css, then that space is filled with the image as a background-image. The image appears to change on rollover as a different background-image is called on :hover, and then another on mousedown (active).*
@@ -55,7 +57,7 @@ There isn't anything too fancy here, but in case you're into javascript-free rol
 
 #### Technical stuff - "sticky" footer
 
-Again, this is not rocket science, but if you've ever struggled with getting a footer element to "stick" to the bottom of a browser window, here's what I did in the footer styles:
+Again, this is not rocket science, but if you've ever struggled with getting a footer element to "stick" to the bottom of a browser window, here's the **relevant** stuff that I did in the footer styles:
 
 ~~~
 footer {
