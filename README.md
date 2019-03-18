@@ -1,5 +1,7 @@
 # bonnieho.github.io
 
+Published portfolio site: [https://bonnieho.github.io](https://bonnieho.github.io)
+
 ## Overview
 
 Well, when this task was originally assigned, there was a lot of confusion in class. I suppose it was in the way that the instructions were written, nevertheless, it was hard to determine whether we were supposed to re-create what the instructor and TAs had given us as an example or if we were supposed to use it as a basis for our own creation. Since it was unclear to me at the time, I simply made a pixel-perfect clone of the example shown to the class - colors, layout, and all. This was my third (and final) attempt from way back in 2017, however, I've recently been inspired to get in and fix it up properly, complete with new project cards.
@@ -24,7 +26,7 @@ There isn't anything too fancy here, but in case you're into javascript-free rol
 
 ```
 	section#sidebar .github {
-   		width: 62px;
+        width: 62px;
     	height: 62px;
     	background: url("../images/icon_github.png") no-repeat;
     	display: inline-block;
@@ -45,12 +47,12 @@ There isn't anything too fancy here, but in case you're into javascript-free rol
 **The HTML:** 
 
 ```
-	<a href="https://bonnieho.github.io/" class="github">
+    <a href="https://bonnieho.github.io/" class="github">
         <span class="link-name">Connect with Bonnie on Git Hub</span>
     </a>
 ```
 
-*Note that there is not an image container nested inside of the anchor tags. The link is configured for the exact dimensions of the image in the css, then that space is filled with the image as a background-image. The image appears to change on rollover as a different background-image is called on :hover, and then another on mousedown (active).*
+*Note that there is not an `<img />` container nested inside of the anchor tags. The link is configured for the exact dimensions of the image in the css, then that space is filled with the image as a background-image. The image appears to change on rollover as a different background-image is called on :hover, and then another on mousedown (active).*
 
 *ALSO, I had originally left the link container "empty" (only the background images), but checking the page through a Web Accessibility tool pointed out that this is undesired for assistive technology users, as there is nothing to describe the link itself to those visitors. Hence, I've included the span container with descriptive text inside of the link and then made the style of the corresponding class equal to `display:none`.* 
 
