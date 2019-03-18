@@ -27,20 +27,20 @@ There isn't anything too fancy here, but in case you're into javascript-free rol
 ```
 	section#sidebar .github {
         width: 62px;
-    	height: 62px;
-    	background: url("../images/icon_github.png") no-repeat;
-    	display: inline-block;
-    	margin-right: 4px;
+        height: 62px;
+        background: url("../images/icon_github.png") no-repeat;
+        display: inline-block;
+        margin-right: 4px;
 	}
 
 	section#sidebar .github:hover {
-    	background: url("../images/icon_github_over.png") no-repeat;
-    	margin-right: 4px;
+        background: url("../images/icon_github_over.png") no-repeat;
+        margin-right: 4px;
 	}
 
 	section#sidebar .github:active {
-    	background: url("../images/icon_github_active.png") no-repeat;
-    	margin-right: 4px;
+        background: url("../images/icon_github_active.png") no-repeat;
+        margin-right: 4px;
 	}
 ```
 
@@ -52,9 +52,9 @@ There isn't anything too fancy here, but in case you're into javascript-free rol
     </a>
 ```
 
-*Note that there is not an `<img />` container nested inside of the anchor tags. The link is configured for the exact dimensions of the image in the css, then that space is filled with the image as a background-image. The image appears to change on rollover as a different background-image is called on :hover, and then another on mousedown (active).*
+*Note that there is not an* `<img />` *container nested inside of the anchor tags. The link is configured for the exact dimensions of the image in the css, then that space is filled with the image as a background-image. The image appears to change on rollover as a different background-image is called on :hover, and then another on mousedown (active).*
 
-*ALSO, I had originally left the link container "empty" (only the background images), but checking the page through a Web Accessibility tool pointed out that this is undesired for assistive technology users, as there is nothing to describe the link itself to those visitors. Hence, I've included the span container with descriptive text inside of the link and then made the style of the corresponding class equal to `display:none`.* 
+*ALSO, I had originally left the link container "empty" (only the background images), but checking the page through a Web Accessibility tool pointed out that this is undesired for assistive technology users, as there is nothing to describe the link itself to those visitors. Hence, I've included the span container with descriptive text inside of the link and then made the style of the corresponding class equal to* `display:none`. 
 
 
 #### Technical stuff - "sticky" footer
