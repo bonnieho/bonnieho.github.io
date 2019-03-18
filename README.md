@@ -25,23 +25,23 @@ There isn't anything too fancy here, but in case you're into javascript-free rol
 **The CSS:**
 
 ```
-	section#sidebar .github {
+    section#sidebar .github {
         width: 62px;
         height: 62px;
         background: url("../images/icon_github.png") no-repeat;
         display: inline-block;
         margin-right: 4px;
-	}
+    }
 
-	section#sidebar .github:hover {
+    section#sidebar .github:hover {
         background: url("../images/icon_github_over.png") no-repeat;
         margin-right: 4px;
-	}
+    }
 
-	section#sidebar .github:active {
+    section#sidebar .github:active {
         background: url("../images/icon_github_active.png") no-repeat;
         margin-right: 4px;
-	}
+    }
 ```
 
 **The HTML:** 
