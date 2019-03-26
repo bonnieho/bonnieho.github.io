@@ -312,7 +312,6 @@ section#sidebar h3 {
 	color: #4aaaa5;
 	border-bottom: 2px solid #dcdcdc;
 	font-size: 110%;
-	/* font-weight: bold; */
 	padding: 0 0 24px 0;
 	margin-bottom: 24px;
 	}
@@ -323,8 +322,6 @@ section#sidebar a {
 	width: 62px;
 	border: 0;
 	list-style:none;
-	/* float:left;
-	display:block; */
 	margin:0;
 	padding:0;
 }
