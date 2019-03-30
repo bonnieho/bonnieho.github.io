@@ -12,7 +12,7 @@ Well, when this task was originally assigned, there was a lot of confusion in cl
 
 ### Just 'th facts...
 
-As this assignment was early in our six-month course, at the point we were asked to complete this exercise, we had only just been introduced to html, css, and Bootstrap 3. Although I could make quick work of the markup and free-form CSS, with course content coming at us like water from a fire hose, I hadn't yet build up a reasonable level of confidence using the Bootstrap grid system yet.
+As this assignment was early in our six-month course, at the point we were asked to complete this exercise, we had only just been introduced to html, css, and Bootstrap 3. Although I could make quick work of the markup and free-form CSS, with course content coming at us like water from a fire hose, I hadn't yet build up a reasonable level of confidence using the Bootstrap grid system yet. So, in the end, no Bootstrap styles were harmed in the making of these three portfolio pages.
 
 #### What the portfolio hopes to showcase
 
@@ -54,7 +54,7 @@ There isn't anything too fancy here, but in case you're into javascript-free rol
 
 *Note that there is not an* `<img />` *container nested inside of the anchor tags. The link is configured for the exact dimensions of the image in the css, then that space is filled with the image as a background-image. The image appears to change on rollover as a different background-image is called on :hover, and then another on mousedown (active).*
 
-*ALSO, I had originally left the link container "empty" (only the background images), but checking the page through a Web Accessibility tool pointed out that this is undesired for assistive technology users, as there is nothing to describe the link itself to those visitors. Hence, I've included the span container with descriptive text inside of the link and then made the style of the corresponding class equal to* `display:none`. 
+*ALSO, I had originally left the link container "empty" (only the background images), but checking the page through a Web Accessibility tool pointed out that this is undesired for users of assistive technology, as there is nothing to describe the link itself to those visitors. Hence, I've included the* `<span>` *container with descriptive text inside of the link and then made the style of the corresponding class equal to* `display:none`. 
 
 
 #### Technical stuff - "sticky" footer
