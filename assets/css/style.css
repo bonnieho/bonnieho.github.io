@@ -139,7 +139,6 @@ p {
 }
 
 
-
 #container {
 	min-height: 100%;
 	margin-bottom: 102px;
@@ -259,9 +258,9 @@ p {
 }
 
 #content label {
-		font-family: arial, 'Helvetica Neue', helvetica, sans-serif;
-		display: block;
-		margin-bottom: 8px;
+	font-family: arial, 'Helvetica Neue', helvetica, sans-serif;
+	display: block;
+	margin-bottom: 8px;
 }
 
 #content input {
@@ -365,7 +364,6 @@ section#sidebar .github:active {
     background: url("../images/icon_github_active.png") no-repeat;
     margin-right: 4px;
 }
-
 
 section#sidebar .linkedin {
     width: 62px;
