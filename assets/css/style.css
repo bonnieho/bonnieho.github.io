@@ -620,6 +620,9 @@ footer a:active {
 /* ====================  MEDIA QUERIES ======================== */
 
 
+/*  See about converting pixel values to relative (rem, em, %)  */
+
+
 /*  980px mimics width of screen desktop to help keep content from getting cut off  */
 
 @media screen and (max-width: 980px) {
