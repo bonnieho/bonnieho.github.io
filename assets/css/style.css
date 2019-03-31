@@ -626,7 +626,7 @@ footer a:active {
 
 
 /*  980px mimics width of screen desktop to help keep content from getting cut off  */
-
+/* 980px = 54.444 em  */
 @media screen and (max-width: 980px) {
 	@-ms-viewport {
   		width: device-width;
