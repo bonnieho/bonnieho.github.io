@@ -703,6 +703,12 @@ footer a:active {
 
 }
 
+/* Smartphones (portrait) ----------- */
+/*  320px = 17.778em  */
+@media only screen and (max-width : 320px) {
+
+}
+
 
 
 /* ====================  END styles ======================== */
