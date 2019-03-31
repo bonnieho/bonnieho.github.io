@@ -627,7 +627,7 @@ footer a:active {
 
 /*  980px mimics width of screen desktop to help keep content from getting cut off  */
 /* 980px = 54.444 em  */
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 54.44em) {
 	@-ms-viewport {
   		width: device-width;
 	}
@@ -637,7 +637,7 @@ footer a:active {
 
 /* 768px mimics width of tablet */
 /* 768px = 42.667em  */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 42.667em) {
 	@-ms-viewport {
   		width: device-width;
 	}
@@ -647,12 +647,12 @@ footer a:active {
 	}
 
 	#nav {
-		padding-right: 24px;
+		padding-right: 1.33em;
 		text-align: left;
 	} 
 
 	#container {	
-		width: 768px;
+		width: 42.667em;
 	}
 
 	#content {
