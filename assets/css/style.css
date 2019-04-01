@@ -73,6 +73,11 @@ p {
 	margin-bottom: 8px;
 }
 
+.smalleritals {
+	font-size: 80%;
+	font-style: italic;
+}
+
 
 /* +++++++++++++  MAIN container styles +++++++++++++++ */
 /* this is a container holding the teal H1 on the left side of the header. */
