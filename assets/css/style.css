@@ -73,7 +73,8 @@ p {
 	margin-bottom: 8px;
 }
 
-.smalleritals {
+.smaller-itals {
+	display: block;
 	font-size: 80%;
 	font-style: italic;
 }
