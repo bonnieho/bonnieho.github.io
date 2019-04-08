@@ -64,13 +64,16 @@ header {
 	background-color: #fff;
 	border-bottom: #ccc solid 2px;
 	height: 90px;
+	/* height: 5em; */
 }
 
 
 p {
 	font-family: arial, 'Helvetica Neue', helvetica, sans-serif;
 	margin-top: 8px;
+	/* margin-top: 0.44em; */
 	margin-bottom: 8px;
+	/* margin-bottom: 0.44em; */
 }
 
 .smaller-itals {
