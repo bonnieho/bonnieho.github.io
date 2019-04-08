@@ -88,8 +88,11 @@ p {
 
 #main {
 	width: 960px;
+	/* width: 53.33em */
 	height:90px;
+	/* height: 5em; */
 	padding-top: 25px;
+	/* padding-top: 1.389em */
 	margin: auto;
 }
 
@@ -101,7 +104,9 @@ p {
 	height: 100%;
 	font-size: 150%;
 	padding: 36px;
+	/* padding: 2em; */
 	padding-top: 36px;
+	/* padding-top: 2em; */
 }
 
 /* +++++++++++++  NAV container styles +++++++++++++++ */
@@ -109,7 +114,9 @@ p {
 
 #nav {
 	width: 290px;
+	/* width: 16.11em; */
 	height:90px;
+	/* height: 5em; */
 	float: right;
 	margin-right: 0;
 	padding-right: 0;
@@ -119,21 +126,27 @@ p {
 
 #nav a:link {
 	margin-right: 12px;
+	/* margin-right: 0.667em; */
 	margin-left: 12px;
+	/* margin-left: 0.667em; */
 	text-decoration: none;
 	color: #999;
 }
 
 #nav a:visited {
 	margin-right: 12px;
+	/* margin-right: 0.667em; */
 	margin-left: 12px;
+	/* margin-left: 0.667em; */
 	text-decoration: none;
 	color: #999;
 }
 
 #nav a:hover {
 	margin-right: 12px;
+	/* margin-right: 0.667em; */
 	margin-left: 12px;
+	/* margin-left: 0.667em; */
 	text-decoration: none;
 	color: #666;
 	border-bottom: #666 dotted 1px;
@@ -141,7 +154,9 @@ p {
 
 #nav a:active {
 	margin-right: 12px;
+	/* margin-right: 0.667em; */
 	margin-left: 12px;
+	/* margin-left: 0.667em; */
 	text-decoration: none;
 	color: #eee;
 	border-bottom: #eee dotted 1px;
@@ -151,7 +166,9 @@ p {
 #container {
 	min-height: 100%;
 	margin-bottom: 102px;
+	/* margin-bottom: 5.667em; */
 	width: 960px;
+	/* width: 53.33em */
 	margin: auto;
 }
 
@@ -159,6 +176,7 @@ p {
 	clear: both;
 	display: inline;
 	margin-bottom: 12px;
+	/* margin-bottom: 0.667em; */
 }
 
 
