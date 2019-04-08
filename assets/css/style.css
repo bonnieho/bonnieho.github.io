@@ -271,18 +271,21 @@ p {
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
 	/* color: #dcdcdc; this is too light */
-	color: #666;
+	/* color: #666; TOO dark */
+	color: #c7c7c7;
 	opacity: 1; /* Firefox */
 }
 
 ::-ms-input-placeholder { /* Internet Explorer 10-11 */
 	/* color: #dcdcdc; this is too light */
-	color: #666;
+	/* color: #666; TOO dark */
+	color: #c7c7c7;
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
   	/* color: #dcdcdc; this is too light */
-	color: #666;
+	/* color: #666; TOO dark */
+	color: #c7c7c7;
 }
 
 #content input {
@@ -293,7 +296,8 @@ p {
 	border: 1px solid #dcdcdc;
 	font-family: arial, 'Helvetica Neue', helvetica, sans-serif;
 	font-size: 80%;
-	color: #dcdcdc;
+	/* too light color: #dcdcdc; */
+	color: #a2a9ae;
 }
 
 #content textarea {
@@ -302,7 +306,8 @@ p {
 	margin-bottom: 18px;
 	border: 1px solid #dcdcdc;
 	font-family: arial, 'Helvetica Neue', helvetica, sans-serif;
-	color: #dcdcdc;
+	/* too light color: #dcdcdc; */
+	color: #a2a9ae;
 }
 
 #content input.send {
