@@ -186,11 +186,14 @@ p {
 
 #content {
 	max-width: 590px;
+	/* max-width: 32.778em; */
 	/* width is supposed to be 650px, but with the extra interior padding, we have to reduce that */
 	background-color: #fff;
 	padding: 30px;
+	/* padding: 1.667em; */
 	border: 1px solid #dcdcdc;
 	margin-top: 38px;
+	/* margin-top: 2.11em; */
 	float: left;
 	display: block;
 }
@@ -200,7 +203,9 @@ p {
 	border-bottom: 3px solid #dcdcdc;
 	font-size: 150%;
 	padding: 0 0 36px 0;
+	/* padding: 0 0 2em 0; */
 	margin-bottom: 30px;
+	/* margin-bottom: 1.667em; */
 }
 
 #content p {
@@ -209,11 +214,13 @@ p {
 	padding-top: 0;
 	margin-top: 0;
 	margin-bottom: 8px;
+	/* margin-bottom: 0.44em; */
 }
 
 #content img {
 	float: left;
 	margin-right: 24px;
+	/* margin-right: 1.33em; */
 }
 
 #content .interest {
