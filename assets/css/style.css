@@ -274,20 +274,26 @@ p {
 
 #content .interest h3 a:visited {
 	height: 44px;
+	/* height: 2.44em; */
 	width: 274px;
+	/* width: 15.22em; */
 	color: #d4eceb; /* lt teal */
 }
 
 #content .interest h3 a:hover {
 	height: 44px;
+	/* height: 2.44em; */
 	width: 274px;
+	/* width: 15.22em; */
 	color: #e6e6e6;
 	border-bottom: #e6e6e6 dotted 1px;
 }
 
 #content .interest h3 a:active {
 	height: 44px;
+	/* height: 2.44em; */
 	width: 274px;
+	/* width: 15.22em; */
 	color: #fff;
 	border-bottom: #fff dotted 1px;
 }
@@ -303,6 +309,7 @@ p {
 	font-family: arial, 'Helvetica Neue', helvetica, sans-serif;
 	display: block;
 	margin-bottom: 8px;
+	/* margin-bottom: 0.444em; */
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -326,9 +333,13 @@ p {
 
 #content input {
 	height: 36px;
+	/* height: 2em; */
 	width: 586px;
+	/* width: 32.556em; */
 	padding: 0 12px;
+	/* padding: 0 0.667em; */
 	margin-bottom: 12px;
+	/* margin-bottom: 0.667em; */
 	border: 1px solid #dcdcdc;
 	font-family: arial, 'Helvetica Neue', helvetica, sans-serif;
 	font-size: 80%;
@@ -338,9 +349,12 @@ p {
 }
 
 #content textarea {
-	/* height: 36px; */
+	height: 36px;
+	/* height: 2em; */
 	width: 586px;
+	/* width: 32.556em; */
 	margin-bottom: 18px;
+	/* margin-bottom:; 1em */
 	border: 1px solid #dcdcdc;
 	font-family: arial, 'Helvetica Neue', helvetica, sans-serif;
 	/* too light color: #dcdcdc; */
@@ -350,7 +364,9 @@ p {
 
 #content input.send {
 	width: 115px;
+	/* width: 6.389em; */;
 	height: 42px;
+	/* height: 2.33em; */;
 	margin: 0;
 	background-color: #4aaaa5;
 	color: #fff;
