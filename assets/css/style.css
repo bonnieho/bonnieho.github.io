@@ -685,9 +685,11 @@ footer {
 	text-align: center;
 	font-size: small;
 	border-top: #4aaaa5 8px solid;
+	/* border-top: #4aaaa5 0.444em solid; */
 	color: #c3cabe;
 	width: 100%;
 	height: 94px;
+	/* height: 5.22em; */
 	margin-bottom: 0;
 	position: absolute;
 	left: 0;
@@ -697,6 +699,7 @@ footer {
 footer p {
 	font-family: arial, 'Helvetica Neue', helvetica, sans-serif;
 	padding-top: 32px;
+	/* padding-top: 1.778em; */
 }
 
 footer a:link {
