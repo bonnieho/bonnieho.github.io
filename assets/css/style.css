@@ -381,11 +381,14 @@ p {
 section#sidebar {
 	max-width: 210px;
 	/* width is supposed to be 270px, but with the extra interior padding, we have to reduce that */
+	/* max-width: 11.667em; */
 	float: right;
 	background-color: #fff;
 	padding: 30px;
+	/* padding: 1.667em; */
 	border: 1px solid #dcdcdc;
 	margin-top: 14px;
+	/* margin-top: 0.778em; */
 }
 
 section#sidebar h3 {
@@ -393,13 +396,17 @@ section#sidebar h3 {
 	border-bottom: 2px solid #dcdcdc;
 	font-size: 110%;
 	padding: 0 0 24px 0;
+	/* padding: 0 0 1.333em 0; */
 	margin-bottom: 24px;
+	/* margin-bottom: 1.333em; */
 	}
 
 
 section#sidebar a {
 	height: 62px;
+	/* height: 3.44em; */
 	width: 62px;
+	/* width: 3.44em; */
 	border: 0;
 	list-style:none;
 	margin:0;
@@ -409,15 +416,19 @@ section#sidebar a {
 section#sidebar img {
 	display: inline;
 	width: 62px;
+	/* width: 3.44em; */
 	height: 62px;
+	/* height: 3.44em; */
 	border: 0;
 	margin-right: 4px;
+	/* margin-right: 0.222em; */
 }
 
 .push {
 	clear: both;
 	display:block;
 	margin-bottom: 12px;
+	/* margin-bottom: 0.667em */
 }
 
 .link-name {
@@ -430,57 +441,72 @@ section#sidebar img {
 
 section#sidebar .github {
     width: 62px;
+    /* width: 3.44em; */
     height: 62px;
+    /* height: 3.44em; */
     background: url("../images/icon_github.png") no-repeat;
     display: inline-block;
     margin-right: 4px;
+    /* margin-right: 0.222em; */
 }
 
 section#sidebar .github:hover {
     background: url("../images/icon_github_over.png") no-repeat;
     margin-right: 4px;
+    /* margin-right: 0.222em; */
 }
 
 section#sidebar .github:active {
     background: url("../images/icon_github_active.png") no-repeat;
     margin-right: 4px;
+    /* margin-right: 0.222em; */
 }
 
 section#sidebar .linkedin {
     width: 62px;
+    /* width: 3.44em; */
     height: 62px;
+    /* height: 3.44em; */
     background: url("../images/icon_linkedin.png") no-repeat;
     display: inline-block;
     margin-right: 4px;
+    /* margin-right: 0.222em; */
 }
 
 section#sidebar .linkedin:hover {
     background: url("../images/icon_linkedin_over.png") no-repeat;
     margin-right: 4px;
+    /* margin-right: 0.222em; */
 }
 
 section#sidebar .linkedin:active {
     background: url("../images/icon_linkedin_active.png") no-repeat;
     margin-right: 4px;
+    /* margin-right: 0.222em; */
 }
 
 
 section#sidebar .stackov {
     width: 62px;
+    /* width: 3.44em; */
     height: 62px;
+    /* height: 3.44em; */
     background: url("../images/icon_stackov.png") no-repeat;
     display: inline-block;
     margin-right: 4px;
+    /* margin-right: 0.222em; */
 }
 
 section#sidebar .stackov:hover {
     background: url("../images/icon_stackov_over.png") no-repeat;
     margin-right: 4px;
+    /* margin-right: 0.222em; */
 }
 
 section#sidebar .stackov:active {
     background: url("../images/icon_stackov_active.png") no-repeat;
     margin-right: 4px;
+    /* margin-right: 0.222em; */
 }
 
 
