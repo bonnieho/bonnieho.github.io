@@ -225,10 +225,14 @@ p {
 
 #content .interest {
 	height: 204px;
+	/* height: 11.33em; */
 	width: 274px;
+	/* width: 15.22em; */
 	float: left;
 	margin-right: 20px;
+	/* margin-right: 1.11em; */
 	margin-bottom: 56px;
+	/* margin-bottom: 3.11em; */
 	background-color: #000;
 }
 
@@ -239,14 +243,18 @@ p {
 
 #content .interest h3 {
 	height: 44px;
+	/* height: 2.44em; */
 	width: 274px;
+	/* width: 15.22em; */
 	display: block;
 	background-color: #4aaaa5;
 	color: #fff;
 	font-size: 110%;
 	text-align: center;
 	padding-top: 16px;
+	/* padding-top: 0.889em; */
 	margin-top: 135px;
+	/* margin-top: 7.5em; */
 	position: absolute;
 	z-index: 10;
 }
