@@ -27,20 +27,25 @@ There isn't anything too fancy here, but in case you're into javascript-free rol
 ```
     section#sidebar .github {
         width: 62px;
+        /* width: 3.44em; */
         height: 62px;
+        /* height: 3.44em; */
         background: url("../images/icon_github.png") no-repeat;
         display: inline-block;
         margin-right: 4px;
+        /* margin-right: 0.222em; */
     }
 
     section#sidebar .github:hover {
         background: url("../images/icon_github_over.png") no-repeat;
         margin-right: 4px;
+        /* margin-right: 0.222em; */
     }
 
     section#sidebar .github:active {
         background: url("../images/icon_github_active.png") no-repeat;
         margin-right: 4px;
+        /* margin-right: 0.222em; */
     }
 ```
 
@@ -77,6 +82,7 @@ footer {
 
 #### MVPs
 
+update this readme with em values in code section once testing in production
 WAVE accessibility recommendations:
     * contrast stuff
 
