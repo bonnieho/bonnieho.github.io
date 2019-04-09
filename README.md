@@ -82,7 +82,8 @@ footer {
 
 #### MVPs
 
-update this readme with em values in code section once testing in production
+- update this readme with em values in code section once testing in production
+
 WAVE accessibility recommendations:
     * contrast stuff
 
