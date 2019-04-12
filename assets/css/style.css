@@ -738,6 +738,11 @@ footer a:active {
 /* base font size is 18px, so 1em = 18px */
 
 
+/* 972px is the first breakpoint ? */
+
+/* 670px is where the contact div pops down */
+
+
 /*  980px mimics width of screen desktop to help keep content from getting cut off  */
 /* 980px = 54.444 em  */
 @media screen and (max-width: 54.44em) {
@@ -823,8 +828,6 @@ footer a:active {
 }
 
 
-/* 972px is the first breakpoint ? */
 
-/* 670px is where the contact div pops down */
 
 /* ====================  END styles ======================== */
