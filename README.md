@@ -84,6 +84,8 @@ footer {
 
 - update this readme with em values in code section once testing in production
 - fix breakpoint layouts
+- Rich Link Preview image + README screenshot
+- favicon
 
 WAVE accessibility recommendations:
     * contrast stuff
