@@ -83,6 +83,7 @@ footer {
 #### MVPs
 
 - update this readme with em values in code section once testing in production
+- fix breakpoint layouts
 
 WAVE accessibility recommendations:
     * contrast stuff
