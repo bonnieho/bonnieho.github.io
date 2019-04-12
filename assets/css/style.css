@@ -63,17 +63,17 @@ header {
 	padding: 0;
 	background-color: #fff;
 	border-bottom: #ccc solid 2px;
-	height: 90px;
-	/* height: 5em; */
+	/* height: 90px; */
+	height: 5em; 
 }
 
 
 p {
 	font-family: arial, 'Helvetica Neue', helvetica, sans-serif;
-	margin-top: 8px;
-	/* margin-top: 0.44em; */
-	margin-bottom: 8px;
-	/* margin-bottom: 0.44em; */
+	/* margin-top: 8px; */
+	margin-top: 0.44em;
+	/* margin-bottom: 8px; */
+	margin-bottom: 0.44em; 
 }
 
 .smaller-itals {
@@ -86,16 +86,19 @@ p {
 /* +++++++++++++  MAIN container styles +++++++++++++++ */
 /* this is a container holding the teal H1 on the left side of the header. */
 
+
+/* converting to ems in this div breaks it! */
 #main {
 	width: 960px;
 	/* width: 53.33em */
-	height:90px;
+	height: 90px;
 	/* height: 5em; */
 	padding-top: 25px;
 	/* padding-top: 1.389em */
 	margin: auto;
 }
 
+/* converting to ems in this h1 breaks it! */
 #main h1 {
 	margin: 0;
 	background-color: #4aaaa5;
@@ -103,7 +106,7 @@ p {
 	display: inline;
 	height: 100%;
 	font-size: 150%;
-	padding: 36px;
+	padding: 36px; 
 	/* padding: 2em; */
 	padding-top: 36px;
 	/* padding-top: 2em; */
