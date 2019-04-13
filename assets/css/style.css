@@ -771,8 +771,14 @@ footer a:active {
 		width: 90%;
 	}
 
+	#inner-header h1 {
+		width: 100%;
+		text-align: center;
+	}
+
 	#nav {
 		width: 100%;
+		min-width: 16.11em;
 		display: block;
 		padding-right: 1.33em;
 		text-align: center;
@@ -817,8 +823,14 @@ footer a:active {
 		width: 35.56em;
 	}
 
+	#inner-header h1 {
+		width: 100%;
+		text-align: center;
+	}
+
 	#nav {
 		width: 100%;
+		min-width: 16.11em;
 		display: block;
 		padding-right: 0.667em;
 		text-align: center;
