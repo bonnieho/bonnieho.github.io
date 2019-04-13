@@ -782,7 +782,6 @@ footer a:active {
 	}
 
 	#inner-header h1 {
-
 		position: relative;
 		width: 100%;
 		display: block;
@@ -793,17 +792,13 @@ footer a:active {
 	}
 
 	#nav {
-		position: relative;
-  		top: 80%;
 		width: 100%;
 		min-width: 16.11em;
-		height: 50%;
-		/* background-color: #fff; */
+		height: 100%;
 		display: block;
-		padding-right: 0.667em;
 		text-align: center;
 		float: none;
-		margin: auto;
+		margin: 1em auto;
 	} 
 
 	#container {	
@@ -844,35 +839,39 @@ footer a:active {
 	@-ms-viewport {
   		width: device-width;
 	}
+	
 	header {
 		position: static;
-		height: 10em;
+		height: 8em;
 	}
 
 	#inner-header {
+		position: relative;
 		width: 100%;
-		height: 50%;
+		height: 1.4em;
+		padding: 0;
 		background-color: #4aaaa5;
 		text-align: center;
 	}
 
 	#inner-header h1 {
+		position: relative;
 		width: 100%;
+		display: block;
 		text-align: center;
-		padding-left: 0;
-		margin: auto;
+		padding-top: 0;
+		padding: 1em 0;
+		margin: 0 auto;
 	}
 
 	#nav {
 		width: 100%;
 		min-width: 16.11em;
-		height: 50%;
-		background-color: #fff;
+		height: 100%;
 		display: block;
-		padding-right: 0.667em;
 		text-align: center;
 		float: none;
-		margin: auto;
+		margin: 1em auto;
 	} 
 
 	#container {	
