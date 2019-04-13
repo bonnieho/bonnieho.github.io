@@ -802,22 +802,16 @@ footer a:active {
 	} 
 
 	#container {	
-		width: 42.667em;
-		width: 100%;
-		max-width: 320px;
-		padding: 1.286em 1.643em 0 1.643em;
+		width: 80%;
+		padding: 1.286em 1.643em;
 		margin: 1em;
-		margin-right: 0.5em;
-		margin-left: 0.5em;
 	}
 
-	#content {
-		margin-left: 5%;
-	}
-
-	section#sidebar {
-		float: left;
-		margin-left: 30%;
+	section#content {
+		width: 100%;
+		float: none;
+		margin: 0;
+		margin-bottom: 1em;
 	}
 
 	#content input {
@@ -827,6 +821,13 @@ footer a:active {
 
 	#content textarea {
 		width: 100%;
+	}
+
+	section#sidebar {
+		clear: both;
+		float: none;
+		display: block;
+		margin: 0;
 	}
 
 }
@@ -875,19 +876,16 @@ footer a:active {
 	} 
 
 	#container {	
-		width: 35.56em;
-		padding-right: 28px;
+		width: 100%;
+		/* padding-right: 28px; */
 		margin: 1em auto;
 	}
 
-	#content {
-		max-width: 84%;
-		margin-left: 3%;
-	}
-
-	section#sidebar {
-		float: left;
-		margin-left: 30%;
+	section#content {
+		width: 100%;
+		float: none;
+		margin: 0;
+		margin-bottom: 1em;
 	}
 
 	#content input {
@@ -896,6 +894,12 @@ footer a:active {
 
 	#content textarea {
 		width: 100%;
+	}
+
+	section#sidebar {
+		float: none;
+		margin-left: 0;
+		margin: auto;
 	}
 
 }
