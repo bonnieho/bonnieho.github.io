@@ -83,12 +83,12 @@ p {
 }
 
 
-/* +++++++++++++  MAIN container styles +++++++++++++++ */
+/* +++++++++++++ INNER-HEADER container styles +++++++++++++++ */
 /* this is a container holding the teal H1 on the left side of the header. */
 
 
 /* converting to ems in this div breaks it! */
-#main {
+#inner-header {
 	width: 960px;
 	/* width: 53.33em */
 	height: 90px;
@@ -99,7 +99,7 @@ p {
 }
 
 /* converting to ems in this h1 breaks it! */
-#main h1 {
+#inner-header h1 {
 	margin: 0;
 	background-color: #4aaaa5;
 	color: #fff;
@@ -749,6 +749,13 @@ footer a:active {
 	@-ms-viewport {
   		width: device-width;
 	}
+
+	body {
+		/* this pops the footer to the top!
+		position: relative;
+		height: 100%;
+		*/
+	}
 }
 
 
@@ -760,17 +767,27 @@ footer a:active {
   		width: device-width;
 	}
 
-	#main {
+	#inner-header {
 		width: 90%;
 	}
 
 	#nav {
+		width: 100%;
+		display: block;
 		padding-right: 1.33em;
-		text-align: left;
+		text-align: center;
+		float: none;
+		margin: auto;
 	} 
 
 	#container {	
 		width: 42.667em;
+		width: 100%;
+		max-width: 320px;
+		padding: 1.286em 1.643em 0 1.643em;
+		margin: 1em;
+		margin-right: 0.5em;
+		margin-left: 0.5em;
 	}
 
 	#content {
@@ -796,17 +813,22 @@ footer a:active {
 		position: static;
 	}
 
-	#main {
+	#inner-header {
 		width: 35.56em;
 	}
 
 	#nav {
+		width: 100%;
+		display: block;
 		padding-right: 0.667em;
-		text-align: left;
+		text-align: center;
+		float: none;
+		margin: auto;
 	} 
 
 	#container {	
 		width: 35.56em;
+		margin: 1em auto;
 	}
 
 	#content {
