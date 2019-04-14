@@ -169,6 +169,7 @@ p {
 #container {
 	min-height: 100%;
 	margin-bottom: 102px;
+	padding-bottom: 94px;
 	/* margin-bottom: 5.667em; */
 	width: 960px;
 	/* width: 53.33em */
