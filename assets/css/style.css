@@ -734,11 +734,9 @@ footer a:active {
 /* ====================  MEDIA QUERIES ======================== */
 
 
-/*  See about converting pixel values to relative (rem, em, %)  */
+/*  Converting pixel values to relative (rem, em, %)  */
 
 /* base font size is 18px, so 1em = 18px */
-
-
 
 
 /* 670px is where the contact div pops down */
@@ -807,7 +805,6 @@ footer a:active {
 	}
 
 	section#content {
-		width: 100%;
 		float: none;
 		margin: 0;
 		margin: auto;
@@ -881,7 +878,6 @@ footer a:active {
 	}
 
 	section#content {
-		width: 100%;
 		float: none;
 		margin: 0;
 		margin: auto;
