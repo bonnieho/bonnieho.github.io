@@ -803,13 +803,14 @@ footer a:active {
 	#container {	
 		width: 80%;
 		padding: 1.286em 1.643em;
-		margin: 1em;
+		margin: 1em auto;
 	}
 
 	section#content {
 		width: 100%;
 		float: none;
 		margin: 0;
+		margin: auto;
 		margin-bottom: 1em;
 	}
 
