@@ -761,7 +761,7 @@ footer a:active {
 /* 768px mimics width of tablet */
 /* 768px = 42.667em  */
 /* @media screen and (max-width: 42.667em) { */
-@media screen and (max-width: 54em) {
+@media screen and (max-width: 60em) {
 	@-ms-viewport {
   		width: device-width;
 	}
