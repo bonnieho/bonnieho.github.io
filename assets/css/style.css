@@ -739,31 +739,29 @@ footer a:active {
 /* base font size is 18px, so 1em = 18px */
 
 
-/* 972px is the first breakpoint ? */
+
 
 /* 670px is where the contact div pops down */
 
 
 /*  980px mimics width of screen desktop to help keep content from getting cut off  */
 /* 980px = 54.444 em  */
-@media screen and (max-width: 54.44em) {
+/* 972px is the first breakpoint ? */
+/* 972px = 54.444 em  */
+@media screen and (max-width: 54em) {
 	@-ms-viewport {
   		width: device-width;
 	}
 
-	body {
-		/* this pops the footer to the top!
-		position: relative;
-		height: 100%;
-		*/
-	}
+
 }
 
 
 
 /* 768px mimics width of tablet */
 /* 768px = 42.667em  */
-@media screen and (max-width: 42.667em) {
+/* @media screen and (max-width: 42.667em) { */
+@media screen and (max-width: 54em) {
 	@-ms-viewport {
   		width: device-width;
 	}
@@ -825,10 +823,9 @@ footer a:active {
 	}
 
 	section#sidebar {
-		clear: both;
 		float: none;
-		display: block;
-		margin: 0;
+		margin-left: 0;
+		margin: auto;
 	}
 
 }
