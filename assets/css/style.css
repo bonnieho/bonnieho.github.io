@@ -198,11 +198,38 @@ p {
 	border: 1px solid #dcdcdc;
 	margin-top: 38px;
 	/* margin-top: 2.11em; */
+	margin-bottom: 1em;
+	float: left;
+	display: block;
+}
+
+#content-portfolio-only {
+	max-width: 590px;
+	/* max-width: 32.778em; */
+	/* width is supposed to be 650px, but with the extra interior padding, we have to reduce that */
+	background-color: #fff;
+	padding: 30px;
+	padding-bottom: 0;
+	/* padding: 1.667em; */
+	border: 1px solid #dcdcdc;
+	margin-top: 38px;
+	/* margin-top: 2.11em; */
+	margin-bottom: 1em;
 	float: left;
 	display: block;
 }
 
 #content h2 {
+	color: #4aaaa5;
+	border-bottom: 3px solid #dcdcdc;
+	font-size: 150%;
+	padding: 0 0 36px 0;
+	/* padding: 0 0 2em 0; */
+	margin-bottom: 30px;
+	/* margin-bottom: 1.667em; */
+}
+
+#content-portfolio-only h2 {
 	color: #4aaaa5;
 	border-bottom: 3px solid #dcdcdc;
 	font-size: 150%;
@@ -227,7 +254,7 @@ p {
 	/* margin-right: 1.33em; */
 }
 
-#content .interest {
+#content-portfolio-only .interest {
 	height: 204px;
 	/* height: 11.33em; */
 	width: 274px;
@@ -240,12 +267,12 @@ p {
 	background-color: #000;
 }
 
-#content .interest img {
+#content-portfolio-only .interest img {
 	position: relative;
 	z-index: 1;
 }
 
-#content .interest h3 {
+#content-portfolio-only .interest h3 {
 	height: 44px;
 	/* height: 2.44em; */
 	width: 274px;
@@ -263,9 +290,22 @@ p {
 	z-index: 10;
 }
 
+.progress {
+	display: block;
+	width: 100%;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: smaller;
+	font-style: italic;
+	font-weight: normal;
+	text-align: center;
+	color: #d4eceb;
+	line-height: 0.4em; 
+	padding-top: -4em;
+}
+
 /* ===========  #content .interest pseudoclasses  ==================  */
 
-#content .interest h3 a:link {
+#content-portfolio-only .interest h3 a:link {
 	/* height: 204px; this is the ht of the .interest class */
 	height: 44px;
 	width: 274px;
@@ -276,7 +316,7 @@ p {
 	/* z-index: 11; */
 }
 
-#content .interest h3 a:visited {
+#content-portfolio-only .interest h3 a:visited {
 	height: 44px;
 	/* height: 2.44em; */
 	width: 274px;
@@ -284,7 +324,7 @@ p {
 	color: #d4eceb; /* lt teal */
 }
 
-#content .interest h3 a:hover {
+#content-portfolio-only .interest h3 a:hover {
 	height: 44px;
 	/* height: 2.44em; */
 	width: 274px;
@@ -293,7 +333,7 @@ p {
 	border-bottom: #e6e6e6 dotted 1px;
 }
 
-#content .interest h3 a:active {
+#content-portfolio-only .interest h3 a:active {
 	height: 44px;
 	/* height: 2.44em; */
 	width: 274px;
@@ -809,6 +849,13 @@ footer a:active {
 		margin-bottom: 2em;
 	}
 
+	section#content-portfolio-only {
+		float: none;
+		margin: 0;
+		margin: auto;
+		margin-bottom: 2em;
+	}
+
 	#holder {
 		display: block;
 		width: 100%;
@@ -822,7 +869,13 @@ footer a:active {
 		/* margin: auto; */
 	}
 
-	#content .interest {
+	#content-portfolio-only img {
+		float: none;
+		margin-right: 0;
+		/* margin: auto; */
+	}
+
+	#content-portfolio-only .interest {
 		height: 204px;
 		/* height: 11.33em; */
 		width: 274px;
@@ -836,7 +889,7 @@ footer a:active {
 	}
 
 	div#holder :nth-last-child(-n+2) {
-		margin-bottom: 0; 
+		margin-bottom: 1em; 
 	}
 
 	#content input {
@@ -928,7 +981,7 @@ footer a:active {
 		margin-bottom: 2.2em; 
 		background-color: #000;
 	}
-	
+
 	div#holder :nth-last-child(-n+2) {
 		margin-bottom: 2.2em; 
 	}
