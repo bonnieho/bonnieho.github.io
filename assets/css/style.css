@@ -811,6 +811,27 @@ footer a:active {
 		margin-bottom: 2em;
 	}
 
+	#content img {
+		float: none;
+		margin-right: 0;
+		margin: auto;
+	}
+
+	#content .interest {
+		height: 204px;
+		/* height: 11.33em; */
+		width: 274px;
+		/* width: 15.22em; */
+		float: none;
+		margin-right: 0;
+		/* margin-right: 1.11em; */
+		margin-bottom: 56px;
+		
+		margin: auto;
+		margin-bottom: 2.2em; 
+		background-color: #000;
+	}
+
 	#content input {
 		width: 100%;
 	
