@@ -177,10 +177,10 @@ p {
 }
 
 #container p {
-	clear: both;
 	display: inline;
 	margin-bottom: 12px;
 	/* margin-bottom: 0.667em; */
+	text-align: top;
 }
 
 
@@ -415,6 +415,30 @@ p {
 	/* height: 2.33em; */;
 	margin: 0;
 	background-color: #4aaaa5;
+	color: #fff;
+	font-size: 110%;
+}
+
+#content input.send:link {
+	background-color: #4aaaa5;
+	color: #fff;
+	font-size: 110%;
+}
+
+#content input.send:visited {
+	background-color: #4aaaa5;
+	color: #fff;
+	font-size: 110%;
+}
+
+#content input.send:hover {
+	background-color: #6abeb9;
+	color: #fff;
+	font-size: 110%;
+}
+
+#content input.send:active {
+	background-color: #439894;
 	color: #fff;
 	font-size: 110%;
 }
@@ -866,10 +890,10 @@ footer a:active {
 		text-align: center;
 	}
 
-	#content img {
-		float: none;
-		margin-right: 0;
-		/* margin: auto; */
+	#bio-image img {
+		float: left;
+		margin-right: 24px;
+		/* margin-right: 1.33em; */
 	}
 
 	#content-portfolio-only img {
@@ -896,7 +920,7 @@ footer a:active {
 	}
 
 	.progress {
-	line-height: 0.4em; 
+		line-height: 0.4em; 
 	}
 
 	section#sidebar {
@@ -967,10 +991,10 @@ footer a:active {
 		padding-bottom: 1em;
 	}
 
-	#content img {
-		float: none;
-		margin-right: 0;
-		margin: auto;
+	#bio-image img {
+		float: left;
+		margin-right: 24px;
+		/* margin-right: 1.33em; */
 	}
 
 	#content .interest {

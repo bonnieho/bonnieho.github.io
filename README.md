@@ -27,27 +27,23 @@ There isn't anything too fancy here, but in case you're into javascript-free rol
 ```
     section#sidebar .github {
         width: 62px;
-        /* width: 3.44em; */
         height: 62px;
-        /* height: 3.44em; */
         background: url("../images/icon_github.png") no-repeat;
         display: inline-block;
         margin-right: 4px;
-        /* margin-right: 0.222em; */
     }
 
     section#sidebar .github:hover {
         background: url("../images/icon_github_over.png") no-repeat;
         margin-right: 4px;
-        /* margin-right: 0.222em; */
     }
 
     section#sidebar .github:active {
         background: url("../images/icon_github_active.png") no-repeat;
         margin-right: 4px;
-        /* margin-right: 0.222em; */
     }
 ```
+*(Apologies here - I much prefer to use relative sizes based on the body's base font size in pixels whenever possible. Since I was trying to recreate a pixel-perfect replica of the class assignment example, however, I primarily stuck to pixels for the largest breakpoint at least.)*
 
 **The HTML:** 
 
@@ -82,7 +78,6 @@ footer {
 
 #### MVPs
 
-- fix breakpoint layouts (only small bio img vs p)
 - Rich Link Preview image + README screenshot
 - favicon
 
