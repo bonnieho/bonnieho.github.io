@@ -82,8 +82,7 @@ footer {
 
 #### MVPs
 
-- update this readme with em values in code section once testing in production
-- fix breakpoint layouts
+- fix breakpoint layouts (only small bio img vs p)
 - Rich Link Preview image + README screenshot
 - favicon
 

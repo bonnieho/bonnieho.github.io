@@ -299,8 +299,7 @@ p {
 	font-weight: normal;
 	text-align: center;
 	color: #d4eceb;
-	line-height: 0.4em; 
-	padding-top: -4em;
+	line-height: 0.5em; 
 }
 
 /* ===========  #content .interest pseudoclasses  ==================  */
@@ -346,7 +345,8 @@ p {
 
 #content form {
 	font-family: arial, 'Helvetica Neue', helvetica, sans-serif;
-	width: 80%;
+	/* width: 80%; */
+	width: 100%;
 }
 
 #content label {
@@ -378,8 +378,9 @@ p {
 #content input {
 	height: 36px;
 	/* height: 2em; */
-	width: 586px;
+	/* width: 586px; */
 	/* width: 32.556em; */
+	width: 90%;
 	padding: 0 12px;
 	/* padding: 0 0.667em; */
 	margin-bottom: 12px;
@@ -395,8 +396,9 @@ p {
 #content textarea {
 	height: 36px;
 	/* height: 2em; */
-	width: 586px;
+	/* width: 586px; */
 	/* width: 32.556em; */
+	width: 94%;
 	margin-bottom: 18px;
 	/* margin-bottom:; 1em */
 	border: 1px solid #dcdcdc;
@@ -854,6 +856,7 @@ footer a:active {
 		margin: 0;
 		margin: auto;
 		margin-bottom: 2em;
+		padding-bottom: 1.2em;
 	}
 
 	#holder {
@@ -892,12 +895,8 @@ footer a:active {
 		margin-bottom: 1em; 
 	}
 
-	#content input {
-		width: 100%;
-	}
-
-	#content textarea {
-		width: 100%;
+	.progress {
+	line-height: 0.4em; 
 	}
 
 	section#sidebar {
@@ -964,6 +963,10 @@ footer a:active {
 		margin-bottom: 2em;
 	}
 
+	section#content-portfolio-only {
+		padding-bottom: 1em;
+	}
+
 	#content img {
 		float: none;
 		margin-right: 0;
@@ -984,14 +987,6 @@ footer a:active {
 
 	div#holder :nth-last-child(-n+2) {
 		margin-bottom: 2.2em; 
-	}
-
-	#content input {
-		width: 100%;
-	}
-
-	#content textarea {
-		width: 100%;
 	}
 
 	section#sidebar {
