@@ -809,7 +809,7 @@ footer a:active {
 		margin-bottom: 2em;
 	}
 
-	#content .holder {
+	#holder {
 		display: block;
 		width: 100%;
 		margin: 0 auto;
@@ -829,12 +829,13 @@ footer a:active {
 		/* width: 15.22em; */
 		float: none;
 		display: inline-block;
-		margin-right: 1em;
+		margin-right: 0.5em;
 		margin-bottom: 2.2em; 
+		margin-left: 0.5em;
 		background-color: #000;
 	}
 
-	div#content.holder :nth-last-child(-n+2) {
+	div#holder :nth-last-child(-n+2) {
 		margin-bottom: 0; 
 	}
 
@@ -926,6 +927,10 @@ footer a:active {
 		margin: auto;
 		margin-bottom: 2.2em; 
 		background-color: #000;
+	}
+	
+	div#holder :nth-last-child(-n+2) {
+		margin-bottom: 2.2em; 
 	}
 
 	#content input {
