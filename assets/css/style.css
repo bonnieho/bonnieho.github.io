@@ -811,9 +811,9 @@ footer a:active {
 
 	#content .holder {
 		display: block;
-		width: 800px;
 		width: 100%;
 		margin: 0 auto;
+		text-align: center;
 	}
 
 	#content img {
@@ -830,9 +830,12 @@ footer a:active {
 		float: none;
 		display: inline-block;
 		margin-right: 1em;
-		/* margin: auto; */
 		margin-bottom: 2.2em; 
 		background-color: #000;
+	}
+
+	div#content.holder :nth-last-child(-n+2) {
+		margin-bottom: 0; 
 	}
 
 	#content input {
