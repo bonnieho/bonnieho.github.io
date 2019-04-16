@@ -81,6 +81,8 @@ footer {
 - Rich Link Preview image + README screenshot
 - favicon
 
+- maybe add a modal response for submit button action?
+
 WAVE accessibility recommendations:
     * contrast stuff
 
