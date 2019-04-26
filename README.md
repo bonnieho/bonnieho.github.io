@@ -77,7 +77,7 @@ footer {
 - - - 
 
 #### MVPs that I wanted to update soon
-
+.
 
 - Rich Link Preview image + README screenshot
 - favicon
