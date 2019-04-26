@@ -76,7 +76,7 @@ footer {
 
 - - - 
 
-#### MVPs that I have left
+#### MVPs that I 
 
 - Rich Link Preview image + README screenshot
 - favicon
