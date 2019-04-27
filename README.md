@@ -76,7 +76,7 @@ footer {
 
 - - - 
 
-#### MVPs
+#### MVPs (responsiveness part is DONE!)
 
 - Rich Link Preview image + README screenshot
 - favicon
