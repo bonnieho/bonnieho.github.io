@@ -84,7 +84,7 @@ footer {
 - maybe add a modal response for submit button action?
 
 WAVE accessibility recommendations:
-    * contrast stuff
+    * contrast stuff (although the teal/gray are growing on me)
 
 - - -
 
