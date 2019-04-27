@@ -12,7 +12,7 @@ Well, when this task was originally assigned, there was a lot of confusion in cl
 
 ### Just th' facts...
 
-As this assignment was early in our six-month course, at the point we were asked to complete this exercise, we had only just been introduced to html, css, and Bootstrap 3. Although I could make quick work of the markup and free-form CSS, with course content coming at us like water from a fire hose, I hadn't yet build up a reasonable level of confidence using the Bootstrap grid system yet. So, in the end, no Bootstrap styles were harmed in the making of these three portfolio pages.
+As this assignment was early in our six-month course, at the point we were asked to complete this exercise, we had only just been introduced to html, css, and Bootstrap 3. Although I could make quick work of the markup and free-form CSS, with course content coming at us like water from a fire hose, I hadn't yet build up a reasonable level of confidence using the Bootstrap grid system yet. So, in the end, no Bootstrap styles were harmed in the making of these three portfolio pages (hence, all of the responsiveness is purely my own CSS3).
 
 #### What the portfolio hopes to showcase
 
