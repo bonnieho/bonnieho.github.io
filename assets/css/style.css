@@ -305,6 +305,8 @@ p {
 
 /* ===========  #content .interest pseudoclasses  ==================  */
 
+/* AGAIN, converting from pixels to ems for the layout in this div breaks it! */
+
 
 #content-portfolio-only .interest h3 a:link {
 	/* height: 204px; this is the ht of the .interest class */
@@ -344,6 +346,8 @@ p {
 }
 
 /* ===========  END #content .interest pseudoclasses  ==================  */
+
+/* AGAIN, converting from pixels to ems for the layout in this div breaks it! */
 
 #content form {
 	font-family: arial, 'Helvetica Neue', helvetica, sans-serif;
