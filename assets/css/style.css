@@ -453,6 +453,7 @@ p {
 
 /* +++++++++++++  SIDEBAR styles +++++++++++++++ */
 
+/* ...and yet AGAIN, converting from pixels to ems for the layout in this div breaks it! */
 
 section#sidebar {
 	max-width: 210px;
