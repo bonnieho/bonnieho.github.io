@@ -187,6 +187,7 @@ p {
 
 /* +++++++++++++  CONTENT styles +++++++++++++++ */
 
+/* AGAIN, converting from pixels to ems for the layout in this div breaks it! */
 
 #content {
 	max-width: 590px;
@@ -303,6 +304,7 @@ p {
 }
 
 /* ===========  #content .interest pseudoclasses  ==================  */
+
 
 #content-portfolio-only .interest h3 a:link {
 	/* height: 204px; this is the ht of the .interest class */
