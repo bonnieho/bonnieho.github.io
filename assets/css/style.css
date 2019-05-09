@@ -828,7 +828,7 @@ xxlarge: 1440px
 */
 
 
-/*  980px mimics width of screen desktop to help keep content from getting cut off  */
+/* 980px mimics width of screen desktop to help keep content from getting cut off */
 /* 972px is the first breakpoint ? */
 /* 972px = 54.444 em  */
 @media screen and (max-width: 972px) {
@@ -843,7 +843,9 @@ xxlarge: 1440px
 /* 768px = 42.667em  */
 /* @media screen and (max-width: 42.667em) { */
 /* @media screen and (max-width: 60em) { */
-@media screen and (max-width: 60em) {
+
+/* this one is equal to 60em so now it's just a tad bit bigger than ZURB Foundation's 'large' breakpoint */
+@media screen and (max-width: 1080px) {
 	@-ms-viewport {
   		width: device-width;
 	}
