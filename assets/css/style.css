@@ -812,8 +812,6 @@ footer a:active {
 /* ====================  MEDIA QUERIES ======================== */
 
 
-/*  Converting pixel values to relative (rem, em, %)  */
-
 /* base font size is 18px, so 1em = 18px */
 
 
@@ -947,7 +945,7 @@ footer a:active {
 /* 640px mimics width of phone in landscape */
 /*    640px = 35.556em  */
 
-@media screen and (max-width: 35.56em) {
+@media screen and (max-width: 640px) {
 	@-ms-viewport {
   		width: device-width;
 	}
