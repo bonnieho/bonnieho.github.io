@@ -809,17 +809,26 @@ footer a:active {
 	border-bottom: #eee dotted 1px;
 }
 
+
 /* ====================  MEDIA QUERIES ======================== */
 
-
 /* base font size is 18px, so 1em = 18px */
-
 
 /* 670px is where the contact div pops down */
 
 
+/*
+for reference...
+DEFAULT ZURB FOUNDATION breakpoints:
+small: 0
+medium: 640px
+large: 1024px
+xlarge: 1200px
+xxlarge: 1440px
+*/
+
+
 /*  980px mimics width of screen desktop to help keep content from getting cut off  */
-/* 980px = 54.444 em  */
 /* 972px is the first breakpoint ? */
 /* 972px = 54.444 em  */
 @media screen and (max-width: 972px) {
@@ -833,6 +842,7 @@ footer a:active {
 /* 768px mimics width of tablet */
 /* 768px = 42.667em  */
 /* @media screen and (max-width: 42.667em) { */
+/* @media screen and (max-width: 60em) { */
 @media screen and (max-width: 60em) {
 	@-ms-viewport {
   		width: device-width;
