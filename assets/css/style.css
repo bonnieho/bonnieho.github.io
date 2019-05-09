@@ -822,7 +822,7 @@ footer a:active {
 /* 980px = 54.444 em  */
 /* 972px is the first breakpoint ? */
 /* 972px = 54.444 em  */
-@media screen and (max-width: 54em) {
+@media screen and (max-width: 972px) {
 	@-ms-viewport {
   		width: device-width;
 	}
@@ -1033,7 +1033,7 @@ footer a:active {
 
 /* Smartphones (portrait) ----------- */
 /*  320px = 17.778em  */
-@media only screen and (max-width : 17.778em) {
+@media only screen and (max-width: 320px) {
 
 }
 
