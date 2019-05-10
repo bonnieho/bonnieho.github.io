@@ -520,6 +520,7 @@ section#sidebar .noseeum {
 	display: none;
 }
 
+/* preloading hover image */
 section#sidebar .github::before {
   position: absolute;
   width: 0;
@@ -527,7 +528,6 @@ section#sidebar .github::before {
   background: url(../images/icon_github_over.png);
   content: '';
 }
-
 
 section#sidebar .github {
     width: 62px;
@@ -550,6 +550,15 @@ section#sidebar .github:active {
     background: url("../images/icon_github_active.png") no-repeat;
     margin-right: 4px;
     /* margin-right: 0.222em; */
+}
+
+/* preloading hover image */
+section#sidebar .linkedin::before {
+  position: absolute;
+  width: 0;
+  height: 0;
+  background: url(../images/icon_linkedin_over.png);
+  content: '';
 }
 
 section#sidebar .linkedin {
@@ -575,6 +584,14 @@ section#sidebar .linkedin:active {
     /* margin-right: 0.222em; */
 }
 
+/* preloading hover image */
+section#sidebar .stackov::before {
+  position: absolute;
+  width: 0;
+  height: 0;
+  background: url(../images/icon_stackov_over.png);
+  content: '';
+}
 
 section#sidebar .stackov {
     width: 62px;
