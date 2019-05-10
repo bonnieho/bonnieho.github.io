@@ -520,7 +520,7 @@ section#sidebar .noseeum {
 	display: none;
 }
 
-section#sidebar.github::before {
+section#sidebar .github::before {
   position: absolute;
   width: 0;
   height: 0;
