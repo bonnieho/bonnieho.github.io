@@ -78,9 +78,9 @@ footer {
 
 #### MVPs (responsiveness part is DONE!)
 
-- troubleshooting: see if there's a way to pre-load the pseudoclass 'Connect With Me' images so that there isn't the unsightly flash when the hover state images first load on contact.
+- troubleshooting: see if there's a way to pre-load the pseudoclass 'Connect With Me' images so that there isn't the unsightly flash when the hover state images first load on contact. (STILL WORKING ON THIS!)
 
-- Rich Link Preview image + README screenshot
+- Rich Link Preview image + README screenshot (waiting on updated screenshot cards for a couple of the projects' repos)
 - favicon
 
 - maybe add a modal response for submit button action?
