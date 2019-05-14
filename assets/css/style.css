@@ -517,7 +517,7 @@ section#sidebar img {
 /*  SIDEBAR button rollover effects  */
 
 section#sidebar .noseeum {
-	/* display: none; */
+	display: none;
 }
 
 /* preloading hover image */
