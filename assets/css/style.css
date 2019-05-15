@@ -511,8 +511,8 @@ section#sidebar img {
 /*  SIDEBAR button rollover effects  */
 
 section#sidebar .noseeum {
-	display: none; 
-	/* visibility: hidden; */
+	/* display: none; nope - this leaves blank whitespace placeholder  */
+	visibility: hidden;
 }
 
 /* preloading hover image */
