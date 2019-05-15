@@ -187,8 +187,6 @@ p {
 
 /* +++++++++++++  CONTENT styles +++++++++++++++ */
 
-/* AGAIN, converting from pixels to ems for the layout in this div breaks it! */
-
 #content {
 	max-width: 590px;
 	/* max-width: 32.778em; */
@@ -304,8 +302,6 @@ p {
 }
 
 /* ===========  #content .interest pseudoclasses  ==================  */
-
-/* AGAIN, converting from pixels to ems for the layout in this div breaks it! */
 
 
 #content-portfolio-only .interest h3 a:link {
@@ -453,8 +449,6 @@ p {
 
 /* +++++++++++++  SIDEBAR styles +++++++++++++++ */
 
-/* ...and yet AGAIN, converting from pixels to ems for the layout in this div breaks it! */
-
 section#sidebar {
 	max-width: 210px;
 	/* width is supposed to be 270px, but with the extra interior padding, we have to reduce that */
@@ -517,7 +511,8 @@ section#sidebar img {
 /*  SIDEBAR button rollover effects  */
 
 section#sidebar .noseeum {
-	display: none;
+	/* display: none; */
+	visibility: hidden;
 }
 
 /* preloading hover image */
