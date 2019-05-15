@@ -83,7 +83,7 @@ footer {
 - Rich Link Preview image + README screenshot (waiting on updated screenshot cards for a couple of the projects' repos)
 - favicon
 
-- maybe add a modal response for submit button action?
+- maybe add a modal response for submit button action? (currently playing around with this)
 
 WAVE accessibility recommendations:
     * contrast stuff (although the teal/gray are growing on me)
