@@ -524,6 +524,8 @@ section#sidebar img {
 section#sidebar .noseeum {
 	/* display: none; nope - this leaves blank whitespace placeholder  */
 	visibility: hidden;
+            position: absolute;
+            left: -999em;
 }
 
 /* preloading hover image */
