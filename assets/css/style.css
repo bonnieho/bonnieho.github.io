@@ -25,6 +25,17 @@ body {
 	background-image: url(../images/concrete_seamless.png);
 }
 
+:root:before {
+            content: url(../images/icon_stackov_over.png)
+                     url(/@/assets/images/icon_github_over.png)
+                     url(/@/assets/images/icon_linkedin_over.png);
+            /* partial fallback */
+            background-image: url(../images/icon_stackov_over.png);
+            visibility: hidden;
+            position: absolute;
+            left: -999em;
+          }
+
 a:link {
 	text-decoration: none;
 	color: #999;
