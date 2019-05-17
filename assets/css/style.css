@@ -26,11 +26,11 @@ body {
 }
 
 :root:before {
-            content: url(../images/icon_stackov_over.png)
+            content: url("../images/icon_stackov_over.png")
                      url(/@/assets/images/icon_github_over.png)
-                     url(/@/assets/images/icon_linkedin_over.png);
+                     url("../images/icon_linkedin_over.png");
             /* partial fallback */
-            background-image: url(../images/icon_stackov_over.png);
+            background-image: url("../images/icon_stackov_over.png");
             visibility: hidden;
             position: absolute;
             left: -999em;
