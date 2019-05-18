@@ -31,6 +31,7 @@ body {
                      url("../images/icon_linkedin_over.png");
             /* partial fallback */
             background-image: url("../images/icon_stackov_over.png");
+          	background-image: url("../images/icon_linkedin_over.png");
             visibility: hidden;
             position: absolute;
             left: -999em;
