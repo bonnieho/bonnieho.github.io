@@ -530,10 +530,11 @@ section#sidebar img {
             left: -999em;
 } */
 
+/*
 section#sidebar::after {
   content: url(../images/icon_github_over.png) url(../images/icon_linkedin_over.png) url("../images/icon_stackov_over.png");
-  /* display: none; */
-}
+  display: none;
+} */
 
 
 
