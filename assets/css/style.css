@@ -538,24 +538,28 @@ section#sidebar::after {
 
 
 /* preloading hover image */
-section#sidebar .github::before {
+/* section#sidebar .github::before {
   position: absolute;
   width: 0;
   height: 0;
   background: url("../images/icon_github_over.png");
   content: '';
-}
+} */
 
-section#sidebar .github {
+section#sidebar .github a {
     width: 62px;
     /* width: 3.44em; */
     height: 62px;
     /* height: 3.44em; */
-    background: url("../images/icon_github.png") no-repeat;
+    background: url("../images/icon_github_over.png") no-repeat;
     display: inline-block;
     margin-right: 4px;
     /* margin-right: 0.222em; */
 }
+
+section#sidebar .github a:link {
+	background: url("../images/icon_github.png") no-repeat;
+	}
 
 section#sidebar .github:hover {
     background: url("../images/icon_github_over.png") no-repeat;
