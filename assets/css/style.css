@@ -552,14 +552,14 @@ section#sidebar .github a {
     /* width: 3.44em; */
     height: 62px;
     /* height: 3.44em; */
-    background: url("../images/icon_github_over.png") no-repeat;
+    background: url(../images/icon_github_over.png) no-repeat;
     display: inline-block;
     margin-right: 4px;
     /* margin-right: 0.222em; */
 }
 
 section#sidebar .github a:link {
-	background: url("../images/icon_github.png") no-repeat;
+	background: url(../images/icon_github.png) no-repeat;
 	}
 
 section#sidebar .github:hover {
