@@ -538,14 +538,7 @@ section#sidebar::after {
 
 
 
-/* preloading hover image */
-section#sidebar .github::before {
-  position: absolute;
-  width: 0;
-  height: 0;
-  background: url("../images/icon_github_over.png");
-  content: '';
-} 
+
 
 section#sidebar .github {
     width: 62px;
@@ -557,6 +550,16 @@ section#sidebar .github {
     margin-right: 4px;
     /* margin-right: 0.222em; */
 }
+
+/* preloading hover image */
+section#sidebar .github:before {
+  position: absolute;
+  width: 0;
+  height: 0;
+  background: url("../images/icon_github_over.png");
+  content: '';
+  visibility: hidden;
+} 
 
 section#sidebar .github:hover {
     background: url("../images/icon_github_over.png") no-repeat;
