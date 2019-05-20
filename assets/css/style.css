@@ -545,7 +545,7 @@ section#sidebar .github {
     /* width: 3.44em; */
     height: 62px;
     /* height: 3.44em; */
-    background: url(../images/icon_github.png) no-repeat;
+    background: url('../images/icon_github.png') no-repeat;
     display: inline-block;
     margin-right: 4px;
     /* margin-right: 0.222em; */
@@ -556,19 +556,19 @@ section#sidebar .github:before {
   position: absolute;
   width: 0;
   height: 0;
-  background: url("../images/icon_github_over.png");
+  background: url('../images/icon_github_over.png');
   content: '';
   visibility: hidden;
 } 
 
 section#sidebar .github:hover {
-    background: url("../images/icon_github_over.png") no-repeat;
+    background: url('../images/icon_github_over.png') no-repeat;
     margin-right: 4px;
     /* margin-right: 0.222em; */
 }
 
 section#sidebar .github:active {
-    background: url("../images/icon_github_active.png") no-repeat;
+    background: url('../images/icon_github_active.png') no-repeat;
     margin-right: 4px;
     /* margin-right: 0.222em; */
 }
