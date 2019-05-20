@@ -25,6 +25,10 @@ body {
 	background-image: url(../images/concrete_seamless.png);
 }
 
+div#preload {
+	display: none;
+}
+
 /* :root:before {
             content: url("../images/icon_stackov_over.png")
                      url(/@/assets/images/icon_github_over.png)
@@ -524,11 +528,11 @@ section#sidebar img {
 
 
 /* display: none; nope - this leaves blank whitespace placeholder  */
-section#sidebar .noseeum {	
+/* section#sidebar .noseeum {	
 	visibility: hidden;
             position: absolute;
             left: -999em;
-} 
+} */
 
 /*
 section#sidebar::after {
@@ -552,14 +556,14 @@ section#sidebar .github {
 }
 
 /* preloading hover image */
-section#sidebar .github:before {
+/* section#sidebar .github:before {
   position: absolute;
   width: 0;
   height: 0;
   background: url('../images/icon_github_over.png');
   content: '';
   visibility: hidden;
-} 
+} */
 
 section#sidebar .github:hover {
     background: url('../images/icon_github_over.png') no-repeat;
