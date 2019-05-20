@@ -524,11 +524,11 @@ section#sidebar img {
 
 
 /* display: none; nope - this leaves blank whitespace placeholder  */
-/* section#sidebar .noseeum {	
+section#sidebar .noseeum {	
 	visibility: hidden;
             position: absolute;
             left: -999em;
-} */
+} 
 
 /*
 section#sidebar::after {
