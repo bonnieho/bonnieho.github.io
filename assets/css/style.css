@@ -556,14 +556,14 @@ section#sidebar .github {
 }
 
 /* preloading hover image */
-/* section#sidebar .github:before {
+section#sidebar .github:before {
   position: absolute;
   width: 0;
   height: 0;
-  background: url('../images/icon_github_over.png');
-  content: '';
+  content: url('../images/icon_github_over.png');
+  /* content: ''; */
   visibility: hidden;
-} */
+} 
 
 section#sidebar .github:hover {
     background: url('../images/icon_github_over.png') no-repeat;
