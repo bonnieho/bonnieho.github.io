@@ -44,7 +44,7 @@
     <link rel="preload" href="assets/images/icon_github_over.png" as="image" />
     <link rel="preload" href="assets/images/icon_linkedin_over.png" as="image" />
     <link rel="preload" href="assets/images/icon_stackov_over.png" as="image" />
-    
+
 
     <!-- Bootstrap CSS ? -->
         
@@ -64,6 +64,20 @@
 
       </div>
     </header>
+
+
+    <!-- trying to get the :hover and :active images to preload by putting them into this div then setting the display to none in css -->
+    <!-- this is loading them slightly *faster*, but there's still a (shorter) flash before they display -->
+    <!-- also... this appears to works correctly in Opera; just not so much in FF -->
+    <div id="preload">
+      <img src="/assets/images/icon_github_over.png" />
+      <img src="/assets/images/icon_linkedin_over.png" />
+      <img src="/assets/images/icon_stackov_over.png" />
+      <img src="/assets/images/icon_github_active.png" />
+      <img src="/assets/images/icon_linkedin_active.png" />
+      <img src="/assets/images/icon_stackov_active.png" />
+    </div>
+
 
     <div id="container">
 
