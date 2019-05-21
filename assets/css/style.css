@@ -578,12 +578,12 @@ section#sidebar .github:active {
 }
 
 /* preloading hover image */
-section#sidebar .linkedin::before {
+section#sidebar .linkedin:before {
   position: absolute;
   width: 0;
   height: 0;
-  background: url("../images/icon_linkedin_over.png");
-  content: '';
+  content: url('../images/icon_linkedin_over.png');
+  /* content: ''; */
 }
 
 section#sidebar .linkedin {
