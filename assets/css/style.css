@@ -556,7 +556,7 @@ section#sidebar .github {
 }
 
 /* preloading hover image */
-section#sidebar .github:before {
+section#sidebar .github::before {
   position: absolute;
   width: 0;
   height: 0;
@@ -578,7 +578,7 @@ section#sidebar .github:active {
 }
 
 /* preloading hover image */
-section#sidebar .linkedin:before {
+section#sidebar .linkedin::before {
   position: absolute;
   width: 0;
   height: 0;
@@ -610,7 +610,7 @@ section#sidebar .linkedin:active {
 }
 
 /* preloading hover image */
-section#sidebar .stackov:before {
+section#sidebar .stackov::before {
   position: absolute;
   width: 0;
   height: 0;
