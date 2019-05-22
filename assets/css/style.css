@@ -550,6 +550,15 @@ section#sidebar .github::before {
   /* content: ''; */
 } 
 
+/* preloading active image */
+section#sidebar .github::after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  content: url('../images/icon_github_active.png');
+  /* content: ''; */
+} 
+
 section#sidebar .github {
     width: 62px;
     /* width: 3.44em; */
