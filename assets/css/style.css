@@ -610,12 +610,12 @@ section#sidebar .linkedin:active {
 }
 
 /* preloading hover image */
-section#sidebar .stackov::before {
+section#sidebar .stackov:before {
   position: absolute;
   width: 0;
   height: 0;
-  background: url("../images/icon_stackov_over.png");
-  content: '';
+  content: url("../images/icon_stackov_over.png");
+  /* content: ''; */
 }
 
 section#sidebar .stackov {
