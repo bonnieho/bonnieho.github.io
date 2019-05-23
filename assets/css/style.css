@@ -541,25 +541,23 @@ section#sidebar::after {
 } */
 
 
+/* preloading active image */
+section#sidebar .github::before {
+  position: absolute;
+  width: 0;
+  height: 0;
+  content: url('../images/icon_github_active.png'); 
+  /* content: ''; */
+} 
+
 /* preloading hover image */
 section#sidebar .github::before {
   position: absolute;
   width: 0;
   height: 0;
-  /* content: url('../images/icon_github_active.png'); */
   content: url('../images/icon_github_over.png');
   /* content: ''; */
 } 
-
-/* preloading hover image */
-section#sidebar .github::after {
-  position: absolute;
-  width: 0;
-  height: 0;
-  /* content: url('../images/icon_github_active.png'); */
-  /* content: ''; */
-} 
-
 
 section#sidebar .github {
     width: 62px;
