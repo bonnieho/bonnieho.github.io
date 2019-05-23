@@ -583,6 +583,14 @@ section#sidebar .github:active {
 }
 
 
+/* preloading active image */
+section#sidebar .linkedin::before {
+  position: absolute;
+  width: 0;
+  height: 0;
+  content: url('../images/icon_linkedin_active.png');
+  /* content: ''; */
+}
 
 /* preloading hover image */
 section#sidebar .linkedin::before {
