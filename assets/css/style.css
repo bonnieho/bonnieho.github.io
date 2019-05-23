@@ -546,7 +546,7 @@ section#sidebar .github::before {
   position: absolute;
   width: 0;
   height: 0;
-  content: url('../images/icon_github_active.png');
+  /* content: url('../images/icon_github_active.png'); */
   content: url('../images/icon_github_over.png');
   /* content: ''; */
 } 
@@ -616,7 +616,7 @@ section#sidebar .stackov::before {
   position: absolute;
   width: 0;
   height: 0;
-  content: url("../images/icon_stackov_over.png");
+  content: url('../images/icon_stackov_over.png');
   /* content: ''; */
 }
 
