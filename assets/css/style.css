@@ -543,7 +543,7 @@ section#sidebar::after {
 
 /* preloading active images */
 /* doesn't seem to be loading these any faster however */
-body:after {
+body::before {
 width: 0; height: 0; overflow: hidden; display: block;
 content: url('../images/icon_github_active.png')
          url('../images/icon_linkedin_active.png')
