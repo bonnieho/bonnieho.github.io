@@ -78,7 +78,7 @@ footer {
 
 #### MVPs (responsiveness part is DONE!)
 
-- troubleshooting: see if there's a way to pre-load the pseudoclass 'Connect With Me' images so that there isn't the unsightly flash when the hover state images first load on contact. (STILL WORKING ON THIS! It seems to work ok now for hover states but can't seem to achieve same for active - still testing, though.)
+- troubleshooting: see if there's a way to pre-load the pseudoclass 'Connect With Me' images so that there isn't the unsightly flash when the hover state images first load on contact. (It seems to work ok now for hover states but can't seem to achieve same for ACTIVE state - still testing, though.)
 
 - Rich Link Preview image + README screenshot (waiting on updated screenshot cards for a couple of the projects' repos)
 - favicon
