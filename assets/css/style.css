@@ -579,6 +579,12 @@ section#sidebar .github:hover {
     /* margin-right: 0.222em; */
 }
 
+section#sidebar .github:active {
+    background: url("../images/icon_github_active.png") no-repeat;
+    margin-right: 4px;
+    /* margin-right: 0.222em; */
+}
+
 
 
 
