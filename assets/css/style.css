@@ -571,6 +571,8 @@ section#sidebar .github {
     display: inline-block;
     margin-right: 4px;
     /* margin-right: 0.222em; */
+    /* active not working in FF for some reason - try a content: here to load active image maybe? */
+    content: url('../images/icon_github_over.png');
 }
 
 section#sidebar .github:hover {
