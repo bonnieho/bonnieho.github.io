@@ -558,6 +558,7 @@ section#sidebar .github::before {
   position: absolute;
   width: 0;
   height: 0;
+  background: url('../images/icon_github_active.png') no-repeat;
   content: url('../images/icon_github_over.png');
   /* content: ''; */
 } 
@@ -585,7 +586,6 @@ section#sidebar .github:active {
     margin-right: 4px;
     /* margin-right: 0.222em; */
 }
-
 
 
 
