@@ -605,11 +605,11 @@ section#sidebar .linkedin {
     /* width: 3.44em; */
     height: 62px;
     /* height: 3.44em; */
+    content: url('../images/icon_linkedin_active.png');
     background: url("../images/icon_linkedin.png") no-repeat;
     display: inline-block;
     margin-right: 4px;
     /* margin-right: 0.222em; */
-    content: url('../images/icon_linkedin_active.png');
 }
 
 section#sidebar .linkedin:hover {
@@ -640,11 +640,11 @@ section#sidebar .stackov {
     /* width: 3.44em; */
     height: 62px;
     /* height: 3.44em; */
+    content: url('../images/icon_stackov_active.png');
     background: url("../images/icon_stackov.png") no-repeat;
     display: inline-block;
     margin-right: 4px;
     /* margin-right: 0.222em; */
-    content: url('../images/icon_stackov_active.png');
 }
 
 section#sidebar .stackov:hover {
