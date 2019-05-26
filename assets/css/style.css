@@ -572,7 +572,6 @@ section#sidebar .github {
     display: inline-block;
     margin-right: 4px;
     /* margin-right: 0.222em; */
-    /* active not working in FF for some reason - try a content: here to load active image maybe? */
 }
 
 section#sidebar .github:hover {
@@ -595,7 +594,8 @@ section#sidebar .linkedin::before {
   position: absolute;
   width: 0;
   height: 0;
-  background: url('../images/icon_github_active.png') no-repeat;
+  /* check to make sure this works! */
+  background: url('../images/icon_linkedin_active.png') no-repeat;
   content: url('../images/icon_linkedin_over.png');
   /* content: ''; */
 }
@@ -630,7 +630,8 @@ section#sidebar .stackov::before {
   position: absolute;
   width: 0;
   height: 0;
-  background: url('../images/icon_github_active.png') no-repeat;
+  /* check to make sure this works! */
+  background: url('../images/icon_stackov_active.png') no-repeat;
   content: url('../images/icon_stackov_over.png');
   /* content: ''; */
 }
